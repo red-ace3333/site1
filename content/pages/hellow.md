@@ -4,6 +4,8 @@ draft: false
 title: 'Hellow'
 ---
 
+tar -zxvf 
+
 # 一级标题
 
 ## 二级标题
@@ -53,3 +55,8 @@ Git 回溯
 2. add git add .
 3. 保存 git commit
   git commit -m “第一版”
+
+git add
+git commit
+git log
+gti reset HEAD~1
