@@ -50,3 +50,6 @@ Git 回溯
 
 0. 查看当前状态 git status
 1. 记录目前的状态
+2. add git add .
+3. 保存 git commit
+  git commit -m “第一版”
