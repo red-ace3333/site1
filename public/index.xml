@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Nov 2025 20:11:24 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>红楼梦</title>
+      <link>http://localhost:1313/pages/%E7%BA%A2%E6%A5%BC%E6%A2%A6/</link>
+      <pubDate>Fri, 07 Nov 2025 20:11:24 +0800</pubDate>
+      <guid>http://localhost:1313/pages/%E7%BA%A2%E6%A5%BC%E6%A2%A6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Steps</title>
+      <link>http://localhost:1313/pages/steps/</link>
+      <pubDate>Fri, 07 Nov 2025 19:56:47 +0800</pubDate>
+      <guid>http://localhost:1313/pages/steps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hellow</title>
+      <link>http://localhost:1313/pages/hellow/</link>
+      <pubDate>Fri, 07 Nov 2025 19:54:35 +0800</pubDate>
+      <guid>http://localhost:1313/pages/hellow/</guid>
+      <description>&lt;h1 id=&#34;一级标题&#34;&gt;一级标题&lt;/h1&gt;
+&lt;h2 id=&#34;二级标题&#34;&gt;二级标题&lt;/h2&gt;
+&lt;h3 id=&#34;三级标题&#34;&gt;三级标题&lt;/h3&gt;
+&lt;p&gt;正文 123&lt;/p&gt;
+&lt;p&gt;time 时间&lt;/p&gt;
+&lt;p&gt;加粗 &lt;strong&gt;加粗文本&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;斜体 &lt;em&gt;斜体文本&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;如何将markdown，转化为HTML&lt;/p&gt;
+&lt;p&gt;转化的过程：规则-&amp;gt;主题/themes&lt;/p&gt;
+&lt;p&gt;hugo：https://themes.gohugo.io&lt;/p&gt;
+&lt;p&gt;build : hugo build&lt;/p&gt;
+&lt;p&gt;hugo serve&lt;/p&gt;
+&lt;p&gt;Ngix&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
