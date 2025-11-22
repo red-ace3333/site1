@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>My Hugo Site</title>
-        <link>https://example.com/</link>
+        <link>http://localhost:1313/</link>
         <description>Recent content on My Hugo Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>red-ace3333.</copyright>
-        <lastBuildDate>Tue, 18 Nov 2025 15:14:29 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>1</title>
-        <link>https://example.com/pages/1/</link>
-        <pubDate>Tue, 18 Nov 2025 15:14:29 +0800</pubDate>
+        <lastBuildDate>Sat, 22 Nov 2025 20:42:26 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>分享</title>
+        <link>http://localhost:1313/p/%E5%88%86%E4%BA%AB/</link>
+        <pubDate>Sat, 22 Nov 2025 20:42:26 +0800</pubDate>
         
-        <guid>https://example.com/pages/1/</guid>
+        <guid>http://localhost:1313/p/%E5%88%86%E4%BA%AB/</guid>
         <description>&lt;h1 id=&#34;新生研讨分享安排学习生活&#34;&gt;新生研讨分享&amp;ndash;安排学习生活
 &lt;/h1&gt;&lt;h2 id=&#34;学习方面&#34;&gt;学习方面
 &lt;/h2&gt;&lt;ul&gt;
@@ -25,20 +25,17 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- &lt;center&gt;
-
-![](../images/1.jpg)
-
-图 1 记了很多笔记
-
-&lt;/center&gt; --&gt;
 &lt;center&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/images/1.jpg&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/%E5%88%86%E4%BA%AB/1.jpg&#34;
+	width=&#34;2560&#34;
+	height=&#34;1600&#34;
+	srcset=&#34;http://localhost:1313/p/%E5%88%86%E4%BA%AB/1_hu_35dfb57bbbf1abbe.jpg 480w, http://localhost:1313/p/%E5%88%86%E4%BA%AB/1_hu_b31b837f5caecc72.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;160&#34;
+		data-flex-basis=&#34;384px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;图 1 记了很多笔记&lt;/p&gt;
@@ -57,12 +54,16 @@
 &lt;li&gt;写日记（每天花费十几分钟简单记录以下今日生活及明日计划）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;center&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/images/1.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/%E5%88%86%E4%BA%AB/1.png&#34;
+	width=&#34;1224&#34;
+	height=&#34;1255&#34;
+	srcset=&#34;http://localhost:1313/p/%E5%88%86%E4%BA%AB/1_hu_de5e3d8b663c977c.png 480w, http://localhost:1313/p/%E5%88%86%E4%BA%AB/1_hu_5cecbf2716a08df5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;97&#34;
+		data-flex-basis=&#34;234px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;图 2 2023 年末至 2024 年初日记&lt;/p&gt;
@@ -115,12 +116,16 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/images/simpletex.gif&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/%E5%88%86%E4%BA%AB/simpletex.gif&#34;
+	width=&#34;426&#34;
+	height=&#34;240&#34;
+	srcset=&#34;http://localhost:1313/p/%E5%88%86%E4%BA%AB/simpletex_hu_9dd2ac57a030756d.gif 480w, http://localhost:1313/p/%E5%88%86%E4%BA%AB/simpletex_hu_f8b2b0070eade7c6.gif 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -130,19 +135,11 @@
 </description>
         </item>
         <item>
-        <title>红楼梦</title>
-        <link>https://example.com/pages/%E7%BA%A2%E6%A5%BC%E6%A2%A6/</link>
-        <pubDate>Fri, 07 Nov 2025 20:11:24 +0800</pubDate>
-        
-        <guid>https://example.com/pages/%E7%BA%A2%E6%A5%BC%E6%A2%A6/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>Steps</title>
-        <link>https://example.com/pages/steps/</link>
-        <pubDate>Fri, 07 Nov 2025 19:56:47 +0800</pubDate>
+        <link>http://localhost:1313/p/steps/</link>
+        <pubDate>Sat, 22 Nov 2025 20:40:28 +0800</pubDate>
         
-        <guid>https://example.com/pages/steps/</guid>
+        <guid>http://localhost:1313/p/steps/</guid>
         <description>&lt;h1 id=&#34;hugo-网站搭建步骤总结&#34;&gt;Hugo 网站搭建步骤总结
 &lt;/h1&gt;&lt;h2 id=&#34;初始化和项目创建&#34;&gt;初始化和项目创建
 &lt;/h2&gt;&lt;h3 id=&#34;1-初始化-git-仓库&#34;&gt;1. 初始化 Git 仓库
@@ -323,11 +320,11 @@
 </description>
         </item>
         <item>
-        <title>Hellow</title>
-        <link>https://example.com/pages/hellow/</link>
-        <pubDate>Fri, 07 Nov 2025 19:54:35 +0800</pubDate>
+        <title>Hello</title>
+        <link>http://localhost:1313/p/hello/</link>
+        <pubDate>Sat, 22 Nov 2025 20:39:57 +0800</pubDate>
         
-        <guid>https://example.com/pages/hellow/</guid>
+        <guid>http://localhost:1313/p/hello/</guid>
         <description>&lt;p&gt;tar -zxvf&lt;/p&gt;
 &lt;h1 id=&#34;一级标题&#34;&gt;一级标题
 &lt;/h1&gt;&lt;h2 id=&#34;二级标题&#34;&gt;二级标题
@@ -364,6 +361,22 @@ git commit
 git log
 gti reset HEAD~1&lt;/p&gt;
 </description>
+        </item>
+        <item>
+        <title>Demo2</title>
+        <link>http://localhost:1313/p/demo2/</link>
+        <pubDate>Sat, 22 Nov 2025 20:35:41 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/demo2/</guid>
+        <description>&lt;img src="http://localhost:1313/images/demo2/demo2.jpg" alt="Featured image of post Demo2" /&gt;</description>
+        </item>
+        <item>
+        <title>Demo1</title>
+        <link>http://localhost:1313/p/demo1/</link>
+        <pubDate>Sat, 22 Nov 2025 20:32:55 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/demo1/</guid>
+        <description></description>
         </item>
         
     </channel>
