@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Hugo 网站搭建步骤总结 初始化和项目创建 1. 初始化 Git 仓库 1 git init . 在 site1 目录初始化 Git 仓库 默认创建 master 分支 2. 创建 Hugo 站点 1 hugo new site . --force --format yaml 在当前目录创建 Hugo 站点 使用 --force 覆盖现有文件 配置文件格式为 YAML 3. 创建内容页面 1 2 3 hugo new content pages/hellow.md hugo new content pages/steps.md hugo new content pages/红楼梦.md 在 content/pages/ 目录下创建三个 Markdown 页面 支持中英文文件名 主题配置 4. 安装 PaperMod 主题 1 git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1 克隆 PaperMod 主题到 themes 目录 使用 --depth=1 只获取最新提交，节省空间 5. 修复配置文件错误 初始配置中出现 YAML 格式错误：theme:[&quot;PaperMod&quot;] 正确格式应为：theme: PaperMod 或 theme: &quot;PaperMod&quot; 本地开发和测试 6. 启动本地服务器 1 2 3 hugo serve # 或 hugo server 启动 Hugo 开发服务器 默认地址：http://localhost:1313/ 支持热重载，文件修改后自动重新构建 7. 构建统计信息 页面数量：从 10 → 11 → 13（随着内容增加） 构建时间：17ms → 10ms（优化后） 环境：development（开发环境） 版本控制管理 8. 配置 Git 用户信息 1 2 git config --global user.email &#34;3131097328@qq.com&#34; git config --global user.name &#34;Redace&#34; 设置全局 Git 配置 为提交记录提供作者信息 9. 提交代码变更 1 2 3 git add . git commit -m &#34;第一版&#34; git commit -m &#34;第二版&#34; 添加所有文件到暂存区 创建两个版本提交 注意：主题作为子模块添加（mode 160000） 10. 查看提交历史 1 git log 显示提交记录和变更历史 项目结构 1 2 3 4 5 6 7 8 9 10 11 12 site1/ ├── archetypes/ # 内容模板 ├── assets/ # 资源文件 ├── content/ # 网站内容 │ └── pages/ # 页面文件 ├── data/ # 数据文件 ├── layouts/ # 布局文件 ├── static/ # 静态文件 ├── themes/ # 主题文件 │ └── PaperMod/ # PaperMod 主题 ├── public/ # 构建输出 └── hugo.yaml # 配置文件 关键命令总结 初始化: git init + hugo new site 内容创建: hugo new content 主题安装: git clone 到 themes 目录 本地开发: hugo serve 版本控制: git add + git commit 配置注意: 正确的 YAML 格式和 Git 用户配置 这个流程展示了从零开始创建 Hugo 静态网站并管理版本控制的完整过程。\n">
 <title>Steps</title>
 
-<link rel='canonical' href='http://localhost:1313/pages/steps/'>
+<link rel='canonical' href='https://example.com/pages/steps/'>
 
 <link rel="stylesheet" href="/scss/style.min.b0e76e98cdd4f7082d1fc36f7af7e0843a81201db2197c03ca426751dc923735.css"><meta property='og:title' content="Steps">
 <meta property='og:description' content="Hugo 网站搭建步骤总结 初始化和项目创建 1. 初始化 Git 仓库 1 git init . 在 site1 目录初始化 Git 仓库 默认创建 master 分支 2. 创建 Hugo 站点 1 hugo new site . --force --format yaml 在当前目录创建 Hugo 站点 使用 --force 覆盖现有文件 配置文件格式为 YAML 3. 创建内容页面 1 2 3 hugo new content pages/hellow.md hugo new content pages/steps.md hugo new content pages/红楼梦.md 在 content/pages/ 目录下创建三个 Markdown 页面 支持中英文文件名 主题配置 4. 安装 PaperMod 主题 1 git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1 克隆 PaperMod 主题到 themes 目录 使用 --depth=1 只获取最新提交，节省空间 5. 修复配置文件错误 初始配置中出现 YAML 格式错误：theme:[&quot;PaperMod&quot;] 正确格式应为：theme: PaperMod 或 theme: &quot;PaperMod&quot; 本地开发和测试 6. 启动本地服务器 1 2 3 hugo serve # 或 hugo server 启动 Hugo 开发服务器 默认地址：http://localhost:1313/ 支持热重载，文件修改后自动重新构建 7. 构建统计信息 页面数量：从 10 → 11 → 13（随着内容增加） 构建时间：17ms → 10ms（优化后） 环境：development（开发环境） 版本控制管理 8. 配置 Git 用户信息 1 2 git config --global user.email &#34;3131097328@qq.com&#34; git config --global user.name &#34;Redace&#34; 设置全局 Git 配置 为提交记录提供作者信息 9. 提交代码变更 1 2 3 git add . git commit -m &#34;第一版&#34; git commit -m &#34;第二版&#34; 添加所有文件到暂存区 创建两个版本提交 注意：主题作为子模块添加（mode 160000） 10. 查看提交历史 1 git log 显示提交记录和变更历史 项目结构 1 2 3 4 5 6 7 8 9 10 11 12 site1/ ├── archetypes/ # 内容模板 ├── assets/ # 资源文件 ├── content/ # 网站内容 │ └── pages/ # 页面文件 ├── data/ # 数据文件 ├── layouts/ # 布局文件 ├── static/ # 静态文件 ├── themes/ # 主题文件 │ └── PaperMod/ # PaperMod 主题 ├── public/ # 构建输出 └── hugo.yaml # 配置文件 关键命令总结 初始化: git init + hugo new site 内容创建: hugo new content 主题安装: git clone 到 themes 目录 本地开发: hugo serve 版本控制: git add + git commit 配置注意: 正确的 YAML 格式和 Git 用户配置 这个流程展示了从零开始创建 Hugo 静态网站并管理版本控制的完整过程。\n">
-<meta property='og:url' content='http://localhost:1313/pages/steps/'>
+<meta property='og:url' content='https://example.com/pages/steps/'>
 <meta property='og:site_name' content='My Hugo Site'>
 <meta property='og:type' content='article'><meta property='article:section' content='Pages' /><meta property='article:published_time' content='2025-11-07T19:56:47&#43;08:00'/><meta property='article:modified_time' content='2025-11-07T19:56:47&#43;08:00'/>
 <meta name="twitter:title" content="Steps">
@@ -568,7 +568,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.52c340e2afd7683c7371cda07a2f8978aaa4be732fd7adb5a06cb16214c6eb06.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.c922af694cc257bf1ecc41c0dd7b0430f9114ec280ccf67cd2c6ad55f5316c4e.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
