@@ -1,0 +1,9 @@
+baseURL: "https://yoursite.com"
+languageCode: "zh-cn"
+title: "我的博客"
+theme: "reimu"
+
+params:
+  # 基本配置
+  description: "我的个人博客"
+  keywords: "博客,技术,生活"
