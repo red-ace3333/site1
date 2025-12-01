@@ -50,7 +50,7 @@ $$f(x)=\sum _{n=0}^{\infty}\frac{f^{n}(a)} {n!}(x-a)^{n}$$
 
 ### 1.3.3 希腊字母
 
-![](./希腊字母latex语法.png)
+![](1.png)
 
 - 小写： `$\alpha$` $\alpha$ `$\beta $` $\beta $ `$\gamma$` $\gamma$ `$\pi$` $\pi$ `$\omega$` $\omega$
 - 大写：`$\Alpha$` $\Alpha$  `$\Beta$` $\Beta$  `$\Gamma$` $\Gamma$ `$\Pi$` $\Pi$ `$\Omega$` $\Omega$
