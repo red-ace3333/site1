@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>写作 on 我的博客</title>
-    <link>http://localhost:40251/tags/%E5%86%99%E4%BD%9C/</link>
+    <link>https://example.com/tags/%E5%86%99%E4%BD%9C/</link>
     <description>Recent content from 我的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Mon, 01 Dec 2025 11:31:30 +0800</lastBuildDate>
     
     
-    <atom:link href="http://localhost:40251/tags/%E5%86%99%E4%BD%9C/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://example.com/tags/%E5%86%99%E4%BD%9C/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>Markdown</title>
-      <link>http://localhost:40251/post/markdown_basic/</link>
+      <link>https://example.com/post/markdown_basic/</link>
       <pubDate>Mon, 01 Dec 2025 11:31:30 &#43;0800</pubDate>
       <author>xxx@example.com (red-ace3333)</author>
-      <guid>http://localhost:40251/post/markdown_basic/</guid>
+      <guid>https://example.com/post/markdown_basic/</guid>
       <description>
         <![CDATA[<h1>Markdown</h1><p>作者：red-ace3333（xxx@example.com）</p>
         
@@ -61,7 +61,7 @@
 </h2><blockquote>
 <p>引用内容 （&gt;引用内容）</p>
         
-        <hr><p>本文2025-12-01首发于<a href='http://localhost:40251/'>我的博客</a>，最后修改于2025-12-01</p>]]>
+        <hr><p>本文2025-12-01首发于<a href='https://example.com/'>我的博客</a>，最后修改于2025-12-01</p>]]>
       </description>
       
         <category>技术教程</category>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>网站搭建 on 我的博客</title>
-    <link>http://localhost:40251/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</link>
+    <link>https://example.com/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</link>
     <description>Recent content from 我的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Sat, 22 Nov 2025 20:40:28 +0800</lastBuildDate>
     
     
-    <atom:link href="http://localhost:40251/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://example.com/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>Steps</title>
-      <link>http://localhost:40251/post/steps/</link>
+      <link>https://example.com/post/steps/</link>
       <pubDate>Sat, 22 Nov 2025 20:40:28 &#43;0800</pubDate>
       <author>xxx@example.com (red-ace3333)</author>
-      <guid>http://localhost:40251/post/steps/</guid>
+      <guid>https://example.com/post/steps/</guid>
       <description>
         <![CDATA[<h1>Steps</h1><p>作者：red-ace3333（xxx@example.com）</p>
         
@@ -242,7 +242,7 @@ Hugo 网站搭建步骤总结
 </ol>
 <p>这个流程展示了从零开始创建 Hugo 静态网站并管理版本控制的完整过程。</p>
         
-        <hr><p>本文2025-11-22首发于<a href='http://localhost:40251/'>我的博客</a>，最后修改于2025-11-22</p>]]>
+        <hr><p>本文2025-11-22首发于<a href='https://example.com/'>我的博客</a>，最后修改于2025-11-22</p>]]>
       </description>
       
         <category>技术教程</category>
