@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>教程 on 我的博客</title>
+    <link>http://localhost:40251/tags/%E6%95%99%E7%A8%8B/</link>
+    <description>Recent content from 我的博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+    <managingEditor>xxx@example.com (red-ace3333)</managingEditor>
+    <webMaster>xxx@example.com (red-ace3333)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
+    <lastBuildDate>Sat, 22 Nov 2025 20:40:28 +0800</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:40251/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Steps</title>
+      <link>http://localhost:40251/post/steps/</link>
+      <pubDate>Sat, 22 Nov 2025 20:40:28 &#43;0800</pubDate>
+      <author>xxx@example.com (red-ace3333)</author>
+      <guid>http://localhost:40251/post/steps/</guid>
+      <description>
+        <![CDATA[<h1>Steps</h1><p>作者：red-ace3333（xxx@example.com）</p>
+        
+          <h1 id="hugo-网站搭建步骤总结">
+<a class="header-anchor" href="#hugo-%e7%bd%91%e7%ab%99%e6%90%ad%e5%bb%ba%e6%ad%a5%e9%aa%a4%e6%80%bb%e7%bb%93"></a>
+Hugo 网站搭建步骤总结
+</h1><h2 id="初始化和项目创建">
+<a class="header-anchor" href="#%e5%88%9d%e5%a7%8b%e5%8c%96%e5%92%8c%e9%a1%b9%e7%9b%ae%e5%88%9b%e5%bb%ba"></a>
+初始化和项目创建
+</h2><h3 id="1-初始化-git-仓库">
+<a class="header-anchor" href="#1-%e5%88%9d%e5%a7%8b%e5%8c%96-git-%e4%bb%93%e5%ba%93"></a>
+1. 初始化 Git 仓库
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git init .
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>在 <code>site1</code> 目录初始化 Git 仓库</li>
+<li>默认创建 <code>master</code> 分支</li>
+</ul>
+<h3 id="2-创建-hugo-站点">
+<a class="header-anchor" href="#2-%e5%88%9b%e5%bb%ba-hugo-%e7%ab%99%e7%82%b9"></a>
+2. 创建 Hugo 站点
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new site . --force --format yaml
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>在当前目录创建 Hugo 站点</li>
+<li>使用 <code>--force</code> 覆盖现有文件</li>
+<li>配置文件格式为 YAML</li>
+</ul>
+<h3 id="3-创建内容页面">
+<a class="header-anchor" href="#3-%e5%88%9b%e5%bb%ba%e5%86%85%e5%ae%b9%e9%a1%b5%e9%9d%a2"></a>
+3. 创建内容页面
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new content pages/hellow.md
+</span></span><span class="line"><span class="cl">hugo new content pages/steps.md
+</span></span><span class="line"><span class="cl">hugo new content pages/红楼梦.md
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>在 <code>content/pages/</code> 目录下创建三个 Markdown 页面</li>
+<li>支持中英文文件名</li>
+</ul>
+<h2 id="主题配置">
+<a class="header-anchor" href="#%e4%b8%bb%e9%a2%98%e9%85%8d%e7%bd%ae"></a>
+主题配置
+</h2><h3 id="4-安装-papermod-主题">
+<a class="header-anchor" href="#4-%e5%ae%89%e8%a3%85-papermod-%e4%b8%bb%e9%a2%98"></a>
+4. 安装 PaperMod 主题
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth<span class="o">=</span><span class="m">1</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>克隆 PaperMod 主题到 <code>themes</code> 目录</li>
+<li>使用 <code>--depth=1</code> 只获取最新提交，节省空间</li>
+</ul>
+<h3 id="5-修复配置文件错误">
+<a class="header-anchor" href="#5-%e4%bf%ae%e5%a4%8d%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6%e9%94%99%e8%af%af"></a>
+5. 修复配置文件错误
+</h3><ul>
+<li>初始配置中出现 YAML 格式错误：<code>theme:[&quot;PaperMod&quot;]</code></li>
+<li>正确格式应为：<code>theme: PaperMod</code> 或 <code>theme: &quot;PaperMod&quot;</code></li>
+</ul>
+<h2 id="本地开发和测试">
+<a class="header-anchor" href="#%e6%9c%ac%e5%9c%b0%e5%bc%80%e5%8f%91%e5%92%8c%e6%b5%8b%e8%af%95"></a>
+本地开发和测试
+</h2><h3 id="6-启动本地服务器">
+<a class="header-anchor" href="#6-%e5%90%af%e5%8a%a8%e6%9c%ac%e5%9c%b0%e6%9c%8d%e5%8a%a1%e5%99%a8"></a>
+6. 启动本地服务器
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo serve
+</span></span><span class="line"><span class="cl"><span class="c1"># 或</span>
+</span></span><span class="line"><span class="cl">hugo server
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>启动 Hugo 开发服务器</li>
+<li>默认地址：http://localhost:1313/</li>
+<li>支持热重载，文件修改后自动重新构建</li>
+</ul>
+<h3 id="7-构建统计信息">
+<a class="header-anchor" href="#7-%e6%9e%84%e5%bb%ba%e7%bb%9f%e8%ae%a1%e4%bf%a1%e6%81%af"></a>
+7. 构建统计信息
+</h3><ul>
+<li>页面数量：从 10 → 11 → 13（随着内容增加）</li>
+<li>构建时间：17ms → 10ms（优化后）</li>
+<li>环境：development（开发环境）</li>
+</ul>
+<h2 id="版本控制管理">
+<a class="header-anchor" href="#%e7%89%88%e6%9c%ac%e6%8e%a7%e5%88%b6%e7%ae%a1%e7%90%86"></a>
+版本控制管理
+</h2><h3 id="8-配置-git-用户信息">
+<a class="header-anchor" href="#8-%e9%85%8d%e7%bd%ae-git-%e7%94%a8%e6%88%b7%e4%bf%a1%e6%81%af"></a>
+8. 配置 Git 用户信息
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git config --global user.email <span class="s2">&#34;3131097328@qq.com&#34;</span>
+</span></span><span class="line"><span class="cl">git config --global user.name <span class="s2">&#34;Redace&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>设置全局 Git 配置</li>
+<li>为提交记录提供作者信息</li>
+</ul>
+<h3 id="9-提交代码变更">
+<a class="header-anchor" href="#9-%e6%8f%90%e4%ba%a4%e4%bb%a3%e7%a0%81%e5%8f%98%e6%9b%b4"></a>
+9. 提交代码变更
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;第一版&#34;</span>
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;第二版&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>添加所有文件到暂存区</li>
+<li>创建两个版本提交</li>
+<li>注意：主题作为子模块添加（mode 160000）</li>
+</ul>
+<h3 id="10-查看提交历史">
+<a class="header-anchor" href="#10-%e6%9f%a5%e7%9c%8b%e6%8f%90%e4%ba%a4%e5%8e%86%e5%8f%b2"></a>
+10. 查看提交历史
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git log
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>显示提交记录和变更历史</li>
+</ul>
+<h2 id="项目结构">
+<a class="header-anchor" href="#%e9%a1%b9%e7%9b%ae%e7%bb%93%e6%9e%84"></a>
+项目结构
+</h2><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">site1/
+</span></span><span class="line"><span class="cl">├── archetypes/     # 内容模板
+</span></span><span class="line"><span class="cl">├── assets/         # 资源文件
+</span></span><span class="line"><span class="cl">├── content/        # 网站内容
+</span></span><span class="line"><span class="cl">│   └── pages/      # 页面文件
+</span></span><span class="line"><span class="cl">├── data/           # 数据文件
+</span></span><span class="line"><span class="cl">├── layouts/        # 布局文件
+</span></span><span class="line"><span class="cl">├── static/         # 静态文件
+</span></span><span class="line"><span class="cl">├── themes/         # 主题文件
+</span></span><span class="line"><span class="cl">│   └── PaperMod/   # PaperMod 主题
+</span></span><span class="line"><span class="cl">├── public/         # 构建输出
+</span></span><span class="line"><span class="cl">└── hugo.yaml       # 配置文件
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="关键命令总结">
+<a class="header-anchor" href="#%e5%85%b3%e9%94%ae%e5%91%bd%e4%bb%a4%e6%80%bb%e7%bb%93"></a>
+关键命令总结
+</h2><ol>
+<li><strong>初始化</strong>: <code>git init</code> + <code>hugo new site</code></li>
+<li><strong>内容创建</strong>: <code>hugo new content</code></li>
+<li><strong>主题安装</strong>: <code>git clone</code> 到 themes 目录</li>
+<li><strong>本地开发</strong>: <code>hugo serve</code></li>
+<li><strong>版本控制</strong>: <code>git add</code> + <code>git commit</code></li>
+<li><strong>配置注意</strong>: 正确的 YAML 格式和 Git 用户配置</li>
+</ol>
+<p>这个流程展示了从零开始创建 Hugo 静态网站并管理版本控制的完整过程。</p>
+        
+        <hr><p>本文2025-11-22首发于<a href='http://localhost:40251/'>我的博客</a>，最后修改于2025-11-22</p>]]>
+      </description>
+      
+        <category>技术教程</category>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,14 +1,16 @@
 ---
 title: "Markdown"
-description:
+description: "Markdown基础语法介绍"
 date: 2025-12-01T11:31:30+08:00
-image: 
+image: ""
 math: true
-license: 
+license: ""
 hidden: false
 comments: true
 draft: false
 toc: true
+tags: ["Markdown", "写作"]
+categories: ["技术教程"]
 ---
 # 基础
 

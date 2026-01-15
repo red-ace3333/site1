@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Tags on My Hugo Site</title>
-        <link>https://example.com/tags/</link>
-        <description>Recent content in Tags on My Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <copyright>red-ace3333.</copyright>
-        <lastBuildDate>Mon, 01 Dec 2025 11:41:55 +0800</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Katex</title>
-        <link>https://example.com/tags/katex/</link>
-        <pubDate>Mon, 01 Dec 2025 11:41:55 +0800</pubDate>
-        
-        <guid>https://example.com/tags/katex/</guid>
-        <description></description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Tags on 我的博客</title>
+    <link>http://localhost:40251/tags/</link>
+    <description>Recent content from 我的博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+    <managingEditor>xxx@example.com (red-ace3333)</managingEditor>
+    <webMaster>xxx@example.com (red-ace3333)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
+    <lastBuildDate></lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:40251/tags/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+  </channel>
 </rss>

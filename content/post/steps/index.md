@@ -1,14 +1,16 @@
 ---
 title: "Steps"
-description: steps to build a Hugo site
+description: "Hugo网站搭建步骤总结"
 date: 2025-11-22T20:40:28+08:00
-image: 
-math: 
-license: 
+image: ""
+math: false
+license: ""
 hidden: false
 comments: true
 draft: false
 toc: true
+tags: ["Hugo", "网站搭建", "教程"]
+categories: ["技术教程"]
 ---
 
 # Hugo 网站搭建步骤总结

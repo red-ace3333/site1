@@ -1,0 +1,156 @@
+baseURL: https://example.com/
+languageCode: zh-cn
+theme: hugo-theme-stack
+title: 我的博客
+copyright: "red-ace3333."
+
+# 语言配置
+DefaultContentLanguage: zh-cn
+
+# 设置为true以支持中文内容的正确摘要和字数统计
+hasCJKLanguage: true
+
+# 日期时间格式
+dateFormat: "2006-01-02"
+timeFormat: "2006-01-02 15:04:05"
+
+# 内容设置
+contentDir: "content"
+
+# 主要内容部分
+mainSections: ["post"]
+
+# 菜单配置
+menu:
+  main:
+    - name: home
+      url: ""
+      icon: 
+    - name: archives
+      url: "archives"
+      icon: 
+    - name: about
+      url: "about"
+      icon: 
+    - name: friend
+      url: "friend"
+      icon: 
+
+params:
+  # 基本配置
+  author:
+    name: "red-ace3333"
+    email: ""
+  description: "我的个人博客"
+  keywords: "博客,技术,生活"
+  subtitle: "我的个人博客"
+  
+  # 侧边栏配置
+  sidebar:
+    subtitle: "我的个人博客"
+    avatar:
+      enabled: true
+      local: true
+      src: img/avatar.jpg
+  
+  # 小部件配置
+  widgets:
+    homepage:
+      - type: search
+      - type: archives
+        params:
+          limit: 5
+      - type: categories
+        params:
+          limit: 10
+      - type: tag-cloud
+        params:
+          limit: 10
+    page:
+      - type: toc
+  
+  # 小部件行为
+  widget:
+    category:
+      limit: 10
+    tag:
+      limit: 10
+    recent_posts:
+      limit: 5
+    tagcloud:
+      limit: 20
+  
+  # 页脚配置
+  footer:
+    since: 2025
+    powered: true
+    count: true
+    busuanzi: true
+  
+  # 代码块配置
+  code_block:
+    expand: true
+  
+  # 数学公式配置
+  math:
+    katex:
+      enable: true
+    mathjax:
+      enable: false
+  
+  # 动画配置
+  animation:
+    enable: true
+  
+  # 加载器配置
+  preloader:
+    enable: true
+  
+  # 回到顶部配置
+  top:
+    enable: true
+    position: right
+  
+  # Pace进度条
+  pace:
+    enable: true
+  
+  # 暗模式配置
+  dark_mode:
+    enable: auto
+  
+  # 评论系统配置
+  comment:
+    default: waline
+  
+  # Waline评论系统配置
+  waline:
+    enable: true
+    serverURL: "https://waline.vercel.app"
+    pageview: true
+    emoji:
+      - https://unpkg.com/@waline/emojis@1.2.0/weibo
+      - https://unpkg.com/@waline/emojis@1.2.0/alus
+    requiredMeta:
+      - nick
+      - mail
+    wordLimit: 0
+    pageSize: 10
+  
+# Markdown渲染配置
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    endLevel: 4
+    ordered: true
+    startLevel: 2
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    tabWidth: 4

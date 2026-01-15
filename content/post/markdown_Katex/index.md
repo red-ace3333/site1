@@ -1,15 +1,16 @@
 ---
 title: "Markdown_Katex"
-description: 
+description: "使用Katex在Markdown中渲染数学公式"
 date: 2025-12-01T11:41:55+08:00
-image: 
+image: ""
 math: true
-license: 
+license: ""
 hidden: false
 comments: true
 draft: false
 toc: true
-tags: ['Katex']
+tags: ["Markdown", "Katex", "数学公式"]
+categories: ["技术教程"]
 ---
 
 # katex-1
@@ -50,7 +51,7 @@ $$f(x)=\sum _{n=0}^{\infty}\frac{f^{n}(a)} {n!}(x-a)^{n}$$
 
 ### 1.3.3 希腊字母
 
-![](1.png)
+![](/images/posts/markdown_Katex/1.png)
 
 - 小写： `$\alpha$` $\alpha$ `$\beta $` $\beta $ `$\gamma$` $\gamma$ `$\pi$` $\pi$ `$\omega$` $\omega$
 - 大写：`$\Alpha$` $\Alpha$  `$\Beta$` $\Beta$  `$\Gamma$` $\Gamma$ `$\Pi$` $\Pi$ `$\Omega$` $\Omega$

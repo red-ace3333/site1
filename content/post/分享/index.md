@@ -1,14 +1,16 @@
 ---
 title: "分享"
-description: 
+description: "新生研讨分享--安排学习生活"
 date: 2025-11-22T20:42:26+08:00
-image: 
-math: 
-license: 
+image: ""
+math: false
+license: ""
 hidden: false
 comments: true
 draft: false
 toc: true
+tags: ["学习生活", "分享"]
+categories: ["生活分享"]
 ---
 
 # 新生研讨分享--安排学习生活
@@ -23,7 +25,7 @@ toc: true
 
 <center>
 
-![](1.jpg)
+![](/images/posts/分享/1.jpg)
 
 图 1 记了很多笔记
 
@@ -39,7 +41,7 @@ toc: true
 
 <center>
 
-![](1.png)
+![](/images/posts/分享/1.png)
 
 图 2 2023 年末至 2024 年初日记
 
@@ -73,7 +75,7 @@ toc: true
   - 可以使用工具完成的事情，不要亲力亲为
     - 举例：写文档编辑公式 使用自动识别软件simpletex 直接复制粘贴到mathtype或AxMath
 
-![](simpletex.gif)
+![](/images/posts/分享/simpletex.gif)
 
   - 流程化是提高工作效率的指导原则
   - 能自动化的工作不手动完成

@@ -1,893 +1,488 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>My Hugo Site</title>
-        <link>https://example.com/</link>
-        <description>Recent content on My Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <copyright>red-ace3333.</copyright>
-        <lastBuildDate>Mon, 01 Dec 2025 11:41:55 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Markdown_Katex</title>
-        <link>https://example.com/p/markdown_katex/</link>
-        <pubDate>Mon, 01 Dec 2025 11:41:55 +0800</pubDate>
+  <channel>
+    <title>我的博客</title>
+    <link>http://localhost:40251/</link>
+    <description>Recent content from 我的博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+    <managingEditor>xxx@example.com (red-ace3333)</managingEditor>
+    <webMaster>xxx@example.com (red-ace3333)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
+    <lastBuildDate>Mon, 01 Dec 2025 11:41:55 +0800</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:40251/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Markdown_Katex</title>
+      <link>http://localhost:40251/post/markdown_katex/</link>
+      <pubDate>Mon, 01 Dec 2025 11:41:55 &#43;0800</pubDate>
+      <author>xxx@example.com (red-ace3333)</author>
+      <guid>http://localhost:40251/post/markdown_katex/</guid>
+      <description>
+        <![CDATA[<h1>Markdown_Katex</h1><p>作者：red-ace3333（xxx@example.com）</p>
         
-        <guid>https://example.com/p/markdown_katex/</guid>
-        <description>&lt;h1 id=&#34;katex-1&#34;&gt;katex-1
-&lt;/h1&gt;&lt;h2 id=&#34;11-行内公式使用&#34;&gt;1.1 行内公式（使用\$&amp;hellip;\$）
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这是勾股定理：&lt;code&gt;$a^2+b^2=c^2$&lt;/code&gt; $a^2+b^2=c^2$&lt;/li&gt;
-&lt;li&gt;这是爱因斯坦质能方程：&lt;code&gt;$E=mc^2$&lt;/code&gt; $E=mc^2$&lt;/li&gt;
-&lt;li&gt;这是分数： &lt;code&gt;$\frac {a} {b}$&lt;/code&gt; $\frac {a} {b}$&lt;/li&gt;
-&lt;li&gt;这是二次方程的解：&lt;code&gt;$x=\frac {-b \pm \sqrt{b^2-4ac}}{2a}$&lt;/code&gt; $x=\frac {-b \pm \sqrt{b^2-4ac}}{2a}$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;12-块级公式使用&#34;&gt;1.2 块级公式(使用$$&amp;hellip;$\$)
-&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\int&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\infty&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\infty&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} e^{x^&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\,&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;dx &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\sqrt&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\pi&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;$$\int_{-\infty}^{\infty} e^{x^2}\,dx = \sqrt{\pi}$$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\sum&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; _{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\infty&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{f^{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} {n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^{n}&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;$$f(x)=\sum _{n=0}^{\infty}\frac{f^{n}(a)} {n!}(x-a)^{n}$$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;13-常用语法&#34;&gt;1.3 常用语法
-&lt;/h2&gt;&lt;h3 id=&#34;131-上下标&#34;&gt;1.3.1 上下标
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;上标： &lt;code&gt;$x^2$&lt;/code&gt; $x^2$ &lt;code&gt;$e^{x+y}$&lt;/code&gt; $e^{x+y}$&lt;/li&gt;
-&lt;li&gt;下标： &lt;code&gt;$x_1$&lt;/code&gt; $x_1$ &lt;code&gt;$a_{ij}$&lt;/code&gt; $a_{ij}$&lt;/li&gt;
-&lt;li&gt;组合： &lt;code&gt;$\sum_{n=0}^{\infty}$&lt;/code&gt; $\sum_{n=0}^{\infty}$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;132-分式与根式&#34;&gt;1.3.2 分式与根式
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;分式： &lt;code&gt;$\frac{a}{b}$&lt;/code&gt; $\frac{a}{b}$ &lt;code&gt;$\frac{1}{1+\frac{1}}{x}}$&lt;/code&gt; $\frac{1}{1+\frac{1}{x}}$&lt;/li&gt;
-&lt;li&gt;根式： &lt;code&gt;$\sqrt{x}$&lt;/code&gt; $\sqrt{x}$ &lt;code&gt;$\sqrt[n]{x}$&lt;/code&gt; $\sqrt[n]{x}$ &lt;code&gt;$\sqrt[3]{8}=2$&lt;/code&gt; $\sqrt[3]{8}=2$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;133-希腊字母&#34;&gt;1.3.3 希腊字母
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/p/markdown_katex/1.png&#34;
-	width=&#34;723&#34;
-	height=&#34;385&#34;
-	srcset=&#34;https://example.com/p/markdown_katex/1_hu_993bc4ee99298783.png 480w, https://example.com/p/markdown_katex/1_hu_24df110049bebac8.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;187&#34;
-		data-flex-basis=&#34;450px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;小写： &lt;code&gt;$\alpha$&lt;/code&gt; $\alpha$ &lt;code&gt;$\beta $&lt;/code&gt; $\beta $ &lt;code&gt;$\gamma$&lt;/code&gt; $\gamma$ &lt;code&gt;$\pi$&lt;/code&gt; $\pi$ &lt;code&gt;$\omega$&lt;/code&gt; $\omega$&lt;/li&gt;
-&lt;li&gt;大写：&lt;code&gt;$\Alpha$&lt;/code&gt; $\Alpha$  &lt;code&gt;$\Beta$&lt;/code&gt; $\Beta$  &lt;code&gt;$\Gamma$&lt;/code&gt; $\Gamma$ &lt;code&gt;$\Pi$&lt;/code&gt; $\Pi$ &lt;code&gt;$\Omega$&lt;/code&gt; $\Omega$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;134-运算符&#34;&gt;1.3.4 运算符
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;加减乘除： &lt;code&gt;$+ - \times \div \pm \mp$&lt;/code&gt; $+ - \times \div \pm \mp$&lt;/li&gt;
-&lt;li&gt;关系运算符： &lt;code&gt;$= \neq &amp;lt; &amp;gt; \leq \geq \approx \equiv$&lt;/code&gt; $= \neq &amp;lt; &amp;gt; \leq \geq \approx \equiv$&lt;/li&gt;
-&lt;li&gt;集合运算符： &lt;code&gt;$\in \notin \subset \subseteq \cup \cap$&lt;/code&gt; $\in \notin \subset \subseteq \cup \cap$&lt;/li&gt;
-&lt;li&gt;逻辑运算符： &lt;code&gt;$\land \lor \neg \implies \iff$&lt;/code&gt; $\land \lor \neg \implies \iff$&lt;/li&gt;
-&lt;li&gt;微积分运算符： &lt;code&gt;$\int \sum \prod \lim \partial$&lt;/code&gt; $\int \sum \prod \lim \partial$&lt;/li&gt;
-&lt;li&gt;其他运算符： &lt;code&gt;$\forall \exists \nabla \infty$&lt;/code&gt; $\forall \exists \nabla \infty$&lt;/li&gt;
-&lt;li&gt;矩阵： &lt;code&gt;$\begin{bmatrix} a &amp;amp; b \\ c &amp;amp; d \end{bmatrix}$&lt;/code&gt; $\begin{bmatrix} a &amp;amp; b \ c &amp;amp; d \end{bmatrix}$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;135-大型运算符实例&#34;&gt;1.3.5 大型运算符实例
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\sum&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{n} i &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;$$
-\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
-$$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\int&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{a}^{b}&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\,&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\,&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;dx&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;$$
-\int_{a}^{b}\,f(x)\,dx=F(a)-F(b)
-$$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\prod&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{n}&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\,&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;$$
-\prod_{i=1}^{n}\,i=n!
-$$&lt;h3 id=&#34;136-括号和定界符&#34;&gt;1.3.6 括号和定界符
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;小括号： &lt;code&gt;$(x+y)$&lt;/code&gt; $(x+y)$&lt;/li&gt;
-&lt;li&gt;中括号： &lt;code&gt;$[x+y]$&lt;/code&gt; $[x+y]$&lt;/li&gt;
-&lt;li&gt;大括号： &lt;code&gt;$\{x+y\}$&lt;/code&gt; ${x+y}$&lt;/li&gt;
-&lt;li&gt;绝对值： &lt;code&gt;$|x+y|$&lt;/code&gt; $|x+y|$&lt;/li&gt;
-&lt;li&gt;角括号： &lt;code&gt;$\langle x+y \rangle$&lt;/code&gt; $\langle x+y \rangle$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;137-矩阵行列式&#34;&gt;1.3.7 矩阵、行列式
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{bmatrix}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;a &amp;amp; b &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;c &amp;amp; d
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{bmatrix}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;$$
-\begin{bmatrix}
-a &amp; b \\
-c &amp; d
-\end{bmatrix}
-$$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{vmatrix}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;a &amp;amp; b &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;c &amp;amp; d
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{vmatrix}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;$$
-\begin{vmatrix}
-a &amp; b \\
-c &amp; d
-\end{vmatrix}
-$$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{pmatrix}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;a &amp;amp; b &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;c &amp;amp; d
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{pmatrix}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;$$
-\begin{pmatrix}
-a &amp; b \\
-c &amp; d
-\end{pmatrix}
-$$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\det&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{bmatrix}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;a &amp;amp; b &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;c &amp;amp; d
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{bmatrix} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; ad &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; bc
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;$$
-\det \begin{bmatrix}
-a &amp; b \\
-c &amp; d
-\end{bmatrix} = ad - bc
-$$&lt;h3 id=&#34;138-对齐多行公式&#34;&gt;1.3.8 对齐多行公式
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{align}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;a &amp;amp; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; b &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; c &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;  &amp;amp; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; d &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; e &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;  &amp;amp; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; f &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; g
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{align}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;$$
-\begin{aligned}
-a &amp; = b + c \\
-  &amp; = d + e \\
-  &amp; = f + g
-\end{aligned}
-$$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;x &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; y &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;x &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; y &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;$$
-\begin{cases}
-x + y = 10 \\
-x - y = 4
-\end{cases}
-$$&lt;h3 id=&#34;139-实例&#34;&gt;1.3.9 实例
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;薛定谔方程：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;i&lt;span class=&#34;k&#34;&gt;\hbar\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\partial&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\partial&lt;/span&gt; t&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\Psi&lt;/span&gt; = &lt;span class=&#34;k&#34;&gt;\hat&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;H&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\Psi&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;$$
-i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi
-$$&lt;ul&gt;
-&lt;li&gt;欧拉公式：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;e&lt;span class=&#34;nb&#34;&gt;^{&lt;/span&gt;i&lt;span class=&#34;k&#34;&gt;\theta&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt; = &lt;span class=&#34;k&#34;&gt;\cos&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\theta&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt; + i&lt;span class=&#34;k&#34;&gt;\sin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\theta&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;$$
-e^{i\theta} = \cos{\theta} + i\sin{\theta}
-$$&lt;ul&gt;
-&lt;li&gt;麦克斯韦方程组：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;cases&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\nabla&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\cdot&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;E&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt; = &lt;span class=&#34;k&#34;&gt;\frac&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\rho&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\varepsilon&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_&lt;/span&gt;0&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\\&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\nabla&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\cdot&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;B&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt; = 0 &lt;span class=&#34;k&#34;&gt;\\&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\nabla&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\times&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;E&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt; = -&lt;span class=&#34;k&#34;&gt;\frac&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\partial&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;B&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\partial&lt;/span&gt; t&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\\&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\nabla&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\times&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;B&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt; = &lt;span class=&#34;k&#34;&gt;\mu&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_&lt;/span&gt;0 &lt;span class=&#34;k&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;J&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt; + &lt;span class=&#34;k&#34;&gt;\mu&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_&lt;/span&gt;0 &lt;span class=&#34;k&#34;&gt;\varepsilon&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_&lt;/span&gt;0 &lt;span class=&#34;k&#34;&gt;\frac&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\partial&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;E&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\partial&lt;/span&gt; t&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;cases&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;$$
-\begin{cases}
-\nabla \cdot \mathbf{E} = \frac {\rho} {\varepsilon_0} \\
-\nabla \cdot \mathbf{B} = 0 \\
-\nabla \times \mathbf{E} = -\frac {\partial \mathbf{B}} {\partial t} \\
-\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac {\partial \mathbf{E}} {\partial t}
-\end{cases}
-$$</description>
-        </item>
-        <item>
-        <title>Markdown</title>
-        <link>https://example.com/p/markdown/</link>
-        <pubDate>Mon, 01 Dec 2025 11:31:30 +0800</pubDate>
+          <h1 id="katex-1">
+<a class="header-anchor" href="#katex-1"></a>
+katex-1
+</h1><h2 id="11-行内公式使用">
+<a class="header-anchor" href="#11-%e8%a1%8c%e5%86%85%e5%85%ac%e5%bc%8f%e4%bd%bf%e7%94%a8"></a>
+1.1 行内公式（使用\$&hellip;\$）
+</h2><ul>
+<li>这是勾股定理：<code>$a^2+b^2=c^2$</code> $a^2+b^2=c^2$</li>
+<li>这是爱因斯坦质能方程：<code>$E=mc^2$</code> $E=mc^2$</li>
+<li>这是分数： <code>$\frac {a} {b}$</code> $\frac {a} {b}$</li>
+<li>这是二次方程的解：<code>$x=\frac {-b \pm \sqrt{b^2-4ac}}{2a}$</code> $x=\frac {-b \pm \sqrt{b^2-4ac}}{2a}$</li>
+</ul>
+<h2 id="12-块级公式使用">
+<a class="header-anchor" href="#12-%e5%9d%97%e7%ba%a7%e5%85%ac%e5%bc%8f%e4%bd%bf%e7%94%a8"></a>
+1.2 块级公式(使用$$&hellip;$\$)
+</h2><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="sb">$$</span><span class="nv">\int</span><span class="nb">_{</span><span class="o">-</span><span class="nv">\infty</span><span class="nb">}^{</span><span class="nv">\infty</span><span class="nb">} e^{x^</span><span class="m">2</span><span class="nb">}</span><span class="nv">\,</span><span class="nb">dx </span><span class="o">=</span><span class="nb"> </span><span class="nv">\sqrt</span><span class="nb">{</span><span class="nv">\pi</span><span class="nb">}</span><span class="s">$$</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>$$\int_{-\infty}^{\infty} e^{x^2},dx = \sqrt{\pi}$$</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="sb">$$</span><span class="nb">f</span><span class="o">(</span><span class="nb">x</span><span class="o">)=</span><span class="nv">\sum</span><span class="nb"> _{n</span><span class="o">=</span><span class="m">0</span><span class="nb">}^{</span><span class="nv">\infty</span><span class="nb">}</span><span class="nv">\frac</span><span class="nb">{f^{n}</span><span class="o">(</span><span class="nb">a</span><span class="o">)</span><span class="nb">} {n</span><span class="o">!</span><span class="nb">}</span><span class="o">(</span><span class="nb">x</span><span class="o">-</span><span class="nb">a</span><span class="o">)</span><span class="nb">^{n}</span><span class="s">$$</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>$$f(x)=\sum _{n=0}^{\infty}\frac{f^{n}(a)} {n!}(x-a)^{n}$$</li>
+</ul>
+<h2 id="13-常用语法">
+<a class="header-anchor" href="#13-%e5%b8%b8%e7%94%a8%e8%af%ad%e6%b3%95"></a>
+1.3 常用语法
+</h2><h3 id="131-上下标">
+<a class="header-anchor" href="#131-%e4%b8%8a%e4%b8%8b%e6%a0%87"></a>
+1.3.1 上下标
+</h3><ul>
+<li>上标： <code>$x^2$</code> $x^2$ <code>$e^{x+y}$</code> $e^{x+y}$</li>
+<li>下标： <code>$x_1$</code> $x_1$ <code>$a_{ij}$</code> $a_{ij}$</li>
+<li>组合： <code>$\sum_{n=0}^{\infty}$</code> $\sum_{n=0}^{\infty}$</li>
+</ul>
+<h3 id="132-分式与根式">
+<a class="header-anchor" href="#132-%e5%88%86%e5%bc%8f%e4%b8%8e%e6%a0%b9%e5%bc%8f"></a>
+1.3.2 分式与根式
+</h3><ul>
+<li>分式： <code>$\frac{a}{b}$</code> $\frac{a}{b}$ <code>$\frac{1}{1+\frac{1}}{x}}$</code> $\frac{1}{1+\frac{1}{x}}$</li>
+<li>根式： <code>$\sqrt{x}$</code> $\sqrt{x}$ <code>$\sqrt[n]{x}$</code> $\sqrt[n]{x}$ <code>$\sqrt[3]{8}=2$</code> $\sqrt[3]{8}=2$</li>
+</ul>
+<h3 id="133-希腊字母">
+<a class="header-anchor" href="#133-%e5%b8%8c%e8%85%8a%e5%ad%97%e6%af%8d"></a>
+1.3.3 希腊字母
+</h3><p><img src="/images/posts/markdown_Katex/1.png" alt=""></p>
         
-        <guid>https://example.com/p/markdown/</guid>
-        <description>&lt;h1 id=&#34;基础&#34;&gt;基础
-&lt;/h1&gt;&lt;h2 id=&#34;1-标题-headlinetitle&#34;&gt;1. 标题 headline/title/
-&lt;/h2&gt;&lt;p&gt;使用 # ，可以表示 1-6 级标题&lt;/p&gt;
-&lt;h1 id=&#34;一级标题--一级标题&#34;&gt;一级标题 (# 一级标题)
-&lt;/h1&gt;&lt;h2 id=&#34;二级标题--二级标题&#34;&gt;二级标题 (## 二级标题)
-&lt;/h2&gt;&lt;h3 id=&#34;三级标题--三级标题&#34;&gt;三级标题 (### 三级标题)
-&lt;/h3&gt;&lt;h4 id=&#34;四级标题--四级标题&#34;&gt;四级标题 (#### 四级标题)
-&lt;/h4&gt;&lt;h5 id=&#34;五级标题--五级标题&#34;&gt;五级标题 (##### 五级标题)
-&lt;/h5&gt;&lt;h6 id=&#34;六级标题--六级标题&#34;&gt;六级标题 (###### 六级标题)
-&lt;/h6&gt;&lt;h2 id=&#34;2-区块引用-blockquotequote&#34;&gt;2. 区块引用 blockquote/quote/
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;引用内容 （&amp;gt;引用内容）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;3-代码区块-code-blockcode&#34;&gt;3. 代码区块 code block/code/
-&lt;/h2&gt;&lt;p&gt;``` c 指定以下代码为 C 语言&lt;/p&gt;
-&lt;p&gt;void main()&lt;/p&gt;
-&lt;p&gt;{&lt;/p&gt;
-&lt;p&gt;printf(&amp;ldquo;Hello, Markdown!&amp;rdquo;);&lt;/p&gt;
-&lt;p&gt;}&lt;/p&gt;
-&lt;p&gt;```&lt;/p&gt;
-&lt;p&gt;效果：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;printf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello, Markdown!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;4强调-emphitalic&#34;&gt;4.强调 emph/italic/
-&lt;/h2&gt;&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt; ( *斜体* )&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt; ( **粗体** )&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;粗体斜体&lt;/em&gt;&lt;/strong&gt; ( ***粗体斜体*** )&lt;/p&gt;
-&lt;h2 id=&#34;5删除线-delstrike&#34;&gt;5.删除线 del/strike/
-&lt;/h2&gt;&lt;p&gt;&lt;del&gt;删除线&lt;/del&gt; ( ~~删除线~~ )&lt;/p&gt;
-&lt;h2 id=&#34;6无序列表-ulunordered-list&#34;&gt;6.无序列表 ul/unordered list/
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;无序列表 1(- 无序列表 1)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;无序列表 2(- 无序列表 2)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;无序列表 3(- 无序列表 3)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;无序列表 1(+ 无序列表 1)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;无序列表 2(+ 无序列表 2)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;无序列表 3(+ 无序列表 3)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;无序列表 1(* 无序列表 1)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;无序列表 2(* 无序列表 2)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;无序列表 3(* 无序列表 3)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;7有序列表-olordered-list&#34;&gt;7.有序列表 ol/ordered list/
-&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;有序列表 1 (1. 有序列表 1)&lt;/li&gt;
-&lt;li&gt;有序列表 2 (2. 有序列表 2)&lt;/li&gt;
-&lt;li&gt;有序列表 3 (3. 有序列表 3)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;8分割线-hr&#34;&gt;8.分割线 /hr/
-&lt;/h2&gt;&lt;p&gt;---&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;9链接-link&#34;&gt;9.链接 link/
-&lt;/h2&gt;&lt;p&gt;[链接名称](链接地址)&lt;/p&gt;
-&lt;p&gt;[链接名称](&lt;a class=&#34;link&#34; href=&#34;https://github.com/yangchong211/YCVideoPlayer&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/yangchong211/YCVideoPlayer&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yangchong211/YCVideoPlayer&#34;  title=&#34;链接&#34;
-     target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;链接名称&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;10表格-table&#34;&gt;10.表格 table/
-&lt;/h2&gt;&lt;p&gt;| 表头 | 表头 |&lt;/p&gt;
-&lt;p&gt;| &amp;mdash;&amp;mdash; | &amp;mdash;&amp;mdash; |&lt;/p&gt;
-&lt;p&gt;| 单元格 | 单元格 |&lt;/p&gt;
-&lt;p&gt;| 单元格 | 单元格 |&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;表头&lt;/th&gt;
-          &lt;th&gt;表头&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;单元格&lt;/td&gt;
-          &lt;td&gt;单元格&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;单元格&lt;/td&gt;
-          &lt;td&gt;单元格&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;对齐方式&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;-：右对齐&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;:- 左对齐&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;:-：中对齐&lt;/p&gt;
-&lt;p&gt;| 左对齐 | 右对齐 | 中对齐 |&lt;/p&gt;
-&lt;p&gt;| :&amp;mdash;&amp;ndash; | &amp;mdash;&amp;ndash;: | :&amp;mdash;-: |&lt;/p&gt;
-&lt;p&gt;| 单元格 | 单元格 | 单元格 |&lt;/p&gt;
-&lt;p&gt;| 单元格 | 单元格 | 单元格 |&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;左对齐&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;右对齐&lt;/th&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;中对齐&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;单元格 1111111&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;单元格 1111111&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;1111 单元格 1111&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;单元格&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;单元格&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;单元格&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;11图片&#34;&gt;11.图片
-&lt;/h2&gt;&lt;p&gt;![属性文本](图片地址)&lt;/p&gt;
-&lt;p&gt;![](&lt;a class=&#34;link&#34; href=&#34;https://www.baidu.com/img/bd_logo1.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.baidu.com/img/bd_logo1.png&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.baidu.com/img/bd_logo1.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;12转义符号&#34;&gt;12.转义符号
-&lt;/h2&gt;&lt;p&gt;正常显示星号&lt;/p&gt;
-&lt;p&gt;\*\* 正常显示星号\*\*&lt;/p&gt;
-&lt;p&gt;**转义星号**&lt;/p&gt;
-&lt;h2 id=&#34;13脚注&#34;&gt;13.脚注
-&lt;/h2&gt;&lt;p&gt;在需要添加注脚的文字后加上脚注名： [^注脚名]&lt;/p&gt;
-&lt;p&gt;约翰·格鲁伯&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;是 Markdown 的创始人。&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;格鲁伯， John Gruber， 2004 年，&lt;a class=&#34;link&#34; href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;The Markdown Syntax Guide&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        </item>
-        <item>
-        <title>分享</title>
-        <link>https://example.com/p/%E5%88%86%E4%BA%AB/</link>
-        <pubDate>Sat, 22 Nov 2025 20:42:26 +0800</pubDate>
+        <hr><p>本文2025-12-01首发于<a href='http://localhost:40251/'>我的博客</a>，最后修改于2025-12-01</p>]]>
+      </description>
+      
+        <category>技术教程</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost:40251/post/markdown_basic/</link>
+      <pubDate>Mon, 01 Dec 2025 11:31:30 &#43;0800</pubDate>
+      <author>xxx@example.com (red-ace3333)</author>
+      <guid>http://localhost:40251/post/markdown_basic/</guid>
+      <description>
+        <![CDATA[<h1>Markdown</h1><p>作者：red-ace3333（xxx@example.com）</p>
         
-        <guid>https://example.com/p/%E5%88%86%E4%BA%AB/</guid>
-        <description>&lt;h1 id=&#34;新生研讨分享安排学习生活&#34;&gt;新生研讨分享&amp;ndash;安排学习生活
-&lt;/h1&gt;&lt;h2 id=&#34;学习方面&#34;&gt;学习方面
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;课堂上，认真听讲，记笔记
-&lt;ul&gt;
-&lt;li&gt;大部分老师会指出重点内容&lt;/li&gt;
-&lt;li&gt;对比记笔记和不记笔记，前者课后没有印象，后者留有印象&lt;/li&gt;
-&lt;li&gt;用于期末复习，不用把老师的所有 PPT、课本从头到尾看一遍，主看笔记，辅看 PPT、课本&lt;/li&gt;
-&lt;li&gt;对比高中和大学 前者是高度结构化、被动接受 后者是高度自由化、主动探索&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;center&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/p/%E5%88%86%E4%BA%AB/1.jpg&#34;
-	width=&#34;2560&#34;
-	height=&#34;1600&#34;
-	srcset=&#34;https://example.com/p/%E5%88%86%E4%BA%AB/1_hu_35dfb57bbbf1abbe.jpg 480w, https://example.com/p/%E5%88%86%E4%BA%AB/1_hu_b31b837f5caecc72.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;160&#34;
-		data-flex-basis=&#34;384px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;图 1 记了很多笔记&lt;/p&gt;
-&lt;/center&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;作业认真独立完成，弄懂（本专业经验来看，考试题目与课后作业比较类似）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;对于所谓的水课，感兴趣的好好听，不感兴趣的选择性听，报告好好写（按照&lt;a class=&#34;link&#34; href=&#34;https://hantang.github.io/templates/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;模板&lt;/a&gt;）&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;生活方面&#34;&gt;生活方面
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;写日记（每天花费十几分钟简单记录以下今日生活及明日计划）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;center&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/p/%E5%88%86%E4%BA%AB/1.png&#34;
-	width=&#34;1224&#34;
-	height=&#34;1255&#34;
-	srcset=&#34;https://example.com/p/%E5%88%86%E4%BA%AB/1_hu_de5e3d8b663c977c.png 480w, https://example.com/p/%E5%88%86%E4%BA%AB/1_hu_5cecbf2716a08df5.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;97&#34;
-		data-flex-basis=&#34;234px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;图 2 2023 年末至 2024 年初日记&lt;/p&gt;
-&lt;/center&gt;
-&lt;h2 id=&#34;其他&#34;&gt;其他
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;完成必做事项后，还有多余的时间，可以找找自己感兴趣的事情，尝试不同的东西
-&lt;ul&gt;
-&lt;li&gt;写网站、博客&lt;/li&gt;
-&lt;li&gt;学习单片机控制&lt;/li&gt;
-&lt;li&gt;写软件&lt;/li&gt;
-&lt;li&gt;国内外有很多资源可以学习
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/?spm_id_from=333.1007.0.0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;B 站 丰富的技能教程&lt;/a&gt;、&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.icourse163.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;MOOC 国内顶尖课程&lt;/a&gt;、&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.coursera.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Coursera 国际知名课程&lt;/a&gt;、&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ocw.mit.edu/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;MIT开放课程 世界一流教育资源&lt;/a&gt;、&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://csdiy.wiki/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;CS自学指南 计算机专业学习路线&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;参加竞赛&lt;/li&gt;
-&lt;li&gt;跑步、锻炼&lt;/li&gt;
-&lt;li&gt;出去玩&lt;/li&gt;
-&lt;li&gt;阅读&lt;/li&gt;
-&lt;li&gt;……&lt;/li&gt;
-&lt;li&gt;大胆探索、大胆尝试&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;遇到难题，怎么解决
-&lt;ul&gt;
-&lt;li&gt;问熟悉这方面的人是最快的&lt;/li&gt;
-&lt;li&gt;然后是视频、文字教程等&lt;/li&gt;
-&lt;li&gt;实践探索（可能会走很多弯路）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;拒绝内耗&lt;/li&gt;
-&lt;li&gt;多与家人、朋友交流分享，分享困惑与快乐&lt;/li&gt;
-&lt;li&gt;相信只要有需求，就能找到解决方法
-&lt;ul&gt;
-&lt;li&gt;可以使用工具完成的事情，不要亲力亲为
-&lt;ul&gt;
-&lt;li&gt;举例：写文档编辑公式 使用自动识别软件simpletex 直接复制粘贴到mathtype或AxMath&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/p/%E5%88%86%E4%BA%AB/simpletex.gif&#34;
-	width=&#34;426&#34;
-	height=&#34;240&#34;
-	srcset=&#34;https://example.com/p/%E5%88%86%E4%BA%AB/simpletex_hu_9dd2ac57a030756d.gif 480w, https://example.com/p/%E5%88%86%E4%BA%AB/simpletex_hu_f8b2b0070eade7c6.gif 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;177&#34;
-		data-flex-basis=&#34;426px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;流程化是提高工作效率的指导原则&lt;/li&gt;
-&lt;li&gt;能自动化的工作不手动完成&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>Steps</title>
-        <link>https://example.com/p/steps/</link>
-        <pubDate>Sat, 22 Nov 2025 20:40:28 +0800</pubDate>
+          <h1 id="基础">
+<a class="header-anchor" href="#%e5%9f%ba%e7%a1%80"></a>
+基础
+</h1><h2 id="1-标题-headlinetitle">
+<a class="header-anchor" href="#1-%e6%a0%87%e9%a2%98-headlinetitle"></a>
+1. 标题 headline/title/
+</h2><p>使用 # ，可以表示 1-6 级标题</p>
+<h1 id="一级标题--一级标题">
+<a class="header-anchor" href="#%e4%b8%80%e7%ba%a7%e6%a0%87%e9%a2%98--%e4%b8%80%e7%ba%a7%e6%a0%87%e9%a2%98"></a>
+一级标题 (# 一级标题)
+</h1><h2 id="二级标题--二级标题">
+<a class="header-anchor" href="#%e4%ba%8c%e7%ba%a7%e6%a0%87%e9%a2%98--%e4%ba%8c%e7%ba%a7%e6%a0%87%e9%a2%98"></a>
+二级标题 (## 二级标题)
+</h2><h3 id="三级标题--三级标题">
+<a class="header-anchor" href="#%e4%b8%89%e7%ba%a7%e6%a0%87%e9%a2%98--%e4%b8%89%e7%ba%a7%e6%a0%87%e9%a2%98"></a>
+三级标题 (### 三级标题)
+</h3><h4 id="四级标题--四级标题">
+<a class="header-anchor" href="#%e5%9b%9b%e7%ba%a7%e6%a0%87%e9%a2%98--%e5%9b%9b%e7%ba%a7%e6%a0%87%e9%a2%98"></a>
+四级标题 (#### 四级标题)
+</h4><h5 id="五级标题--五级标题">
+<a class="header-anchor" href="#%e4%ba%94%e7%ba%a7%e6%a0%87%e9%a2%98--%e4%ba%94%e7%ba%a7%e6%a0%87%e9%a2%98"></a>
+五级标题 (##### 五级标题)
+</h5><h6 id="六级标题--六级标题">
+<a class="header-anchor" href="#%e5%85%ad%e7%ba%a7%e6%a0%87%e9%a2%98--%e5%85%ad%e7%ba%a7%e6%a0%87%e9%a2%98"></a>
+六级标题 (###### 六级标题)
+</h6><h2 id="2-区块引用-blockquotequote">
+<a class="header-anchor" href="#2-%e5%8c%ba%e5%9d%97%e5%bc%95%e7%94%a8-blockquotequote"></a>
+2. 区块引用 blockquote/quote/
+</h2><blockquote>
+<p>引用内容 （&gt;引用内容）</p>
         
-        <guid>https://example.com/p/steps/</guid>
-        <description>&lt;h1 id=&#34;hugo-网站搭建步骤总结&#34;&gt;Hugo 网站搭建步骤总结
-&lt;/h1&gt;&lt;h2 id=&#34;初始化和项目创建&#34;&gt;初始化和项目创建
-&lt;/h2&gt;&lt;h3 id=&#34;1-初始化-git-仓库&#34;&gt;1. 初始化 Git 仓库
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init .
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;在 &lt;code&gt;site1&lt;/code&gt; 目录初始化 Git 仓库&lt;/li&gt;
-&lt;li&gt;默认创建 &lt;code&gt;master&lt;/code&gt; 分支&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;2-创建-hugo-站点&#34;&gt;2. 创建 Hugo 站点
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site . --force --format yaml
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;在当前目录创建 Hugo 站点&lt;/li&gt;
-&lt;li&gt;使用 &lt;code&gt;--force&lt;/code&gt; 覆盖现有文件&lt;/li&gt;
-&lt;li&gt;配置文件格式为 YAML&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;3-创建内容页面&#34;&gt;3. 创建内容页面
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new content pages/hellow.md
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new content pages/steps.md
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new content pages/红楼梦.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;在 &lt;code&gt;content/pages/&lt;/code&gt; 目录下创建三个 Markdown 页面&lt;/li&gt;
-&lt;li&gt;支持中英文文件名&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;主题配置&#34;&gt;主题配置
-&lt;/h2&gt;&lt;h3 id=&#34;4-安装-papermod-主题&#34;&gt;4. 安装 PaperMod 主题
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;克隆 PaperMod 主题到 &lt;code&gt;themes&lt;/code&gt; 目录&lt;/li&gt;
-&lt;li&gt;使用 &lt;code&gt;--depth=1&lt;/code&gt; 只获取最新提交，节省空间&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;5-修复配置文件错误&#34;&gt;5. 修复配置文件错误
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;初始配置中出现 YAML 格式错误：&lt;code&gt;theme:[&amp;quot;PaperMod&amp;quot;]&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;正确格式应为：&lt;code&gt;theme: PaperMod&lt;/code&gt; 或 &lt;code&gt;theme: &amp;quot;PaperMod&amp;quot;&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;本地开发和测试&#34;&gt;本地开发和测试
-&lt;/h2&gt;&lt;h3 id=&#34;6-启动本地服务器&#34;&gt;6. 启动本地服务器
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo serve
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 或&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;启动 Hugo 开发服务器&lt;/li&gt;
-&lt;li&gt;默认地址：http://localhost:1313/&lt;/li&gt;
-&lt;li&gt;支持热重载，文件修改后自动重新构建&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;7-构建统计信息&#34;&gt;7. 构建统计信息
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;页面数量：从 10 → 11 → 13（随着内容增加）&lt;/li&gt;
-&lt;li&gt;构建时间：17ms → 10ms（优化后）&lt;/li&gt;
-&lt;li&gt;环境：development（开发环境）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;版本控制管理&#34;&gt;版本控制管理
-&lt;/h2&gt;&lt;h3 id=&#34;8-配置-git-用户信息&#34;&gt;8. 配置 Git 用户信息
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.email &lt;span class=&#34;s2&#34;&gt;&amp;#34;3131097328@qq.com&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.name &lt;span class=&#34;s2&#34;&gt;&amp;#34;Redace&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;设置全局 Git 配置&lt;/li&gt;
-&lt;li&gt;为提交记录提供作者信息&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;9-提交代码变更&#34;&gt;9. 提交代码变更
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;第一版&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;第二版&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;添加所有文件到暂存区&lt;/li&gt;
-&lt;li&gt;创建两个版本提交&lt;/li&gt;
-&lt;li&gt;注意：主题作为子模块添加（mode 160000）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;10-查看提交历史&#34;&gt;10. 查看提交历史
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git log
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;显示提交记录和变更历史&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;项目结构&#34;&gt;项目结构
-&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;site1/
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── archetypes/     # 内容模板
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── assets/         # 资源文件
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── content/        # 网站内容
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── pages/      # 页面文件
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── data/           # 数据文件
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── layouts/        # 布局文件
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── static/         # 静态文件
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── themes/         # 主题文件
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── PaperMod/   # PaperMod 主题
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── public/         # 构建输出
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└── hugo.yaml       # 配置文件
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;关键命令总结&#34;&gt;关键命令总结
-&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;初始化&lt;/strong&gt;: &lt;code&gt;git init&lt;/code&gt; + &lt;code&gt;hugo new site&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;内容创建&lt;/strong&gt;: &lt;code&gt;hugo new content&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;主题安装&lt;/strong&gt;: &lt;code&gt;git clone&lt;/code&gt; 到 themes 目录&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;本地开发&lt;/strong&gt;: &lt;code&gt;hugo serve&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;版本控制&lt;/strong&gt;: &lt;code&gt;git add&lt;/code&gt; + &lt;code&gt;git commit&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;配置注意&lt;/strong&gt;: 正确的 YAML 格式和 Git 用户配置&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;这个流程展示了从零开始创建 Hugo 静态网站并管理版本控制的完整过程。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Hello</title>
-        <link>https://example.com/p/hello/</link>
-        <pubDate>Sat, 22 Nov 2025 20:39:57 +0800</pubDate>
+        <hr><p>本文2025-12-01首发于<a href='http://localhost:40251/'>我的博客</a>，最后修改于2025-12-01</p>]]>
+      </description>
+      
+        <category>技术教程</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>分享</title>
+      <link>http://localhost:40251/post/%E5%88%86%E4%BA%AB/</link>
+      <pubDate>Sat, 22 Nov 2025 20:42:26 &#43;0800</pubDate>
+      <author>xxx@example.com (red-ace3333)</author>
+      <guid>http://localhost:40251/post/%E5%88%86%E4%BA%AB/</guid>
+      <description>
+        <![CDATA[<h1>分享</h1><p>作者：red-ace3333（xxx@example.com）</p>
         
-        <guid>https://example.com/p/hello/</guid>
-        <description>&lt;p&gt;tar -zxvf&lt;/p&gt;
-&lt;h1 id=&#34;一级标题&#34;&gt;一级标题
-&lt;/h1&gt;&lt;h2 id=&#34;二级标题&#34;&gt;二级标题
-&lt;/h2&gt;&lt;h3 id=&#34;三级标题&#34;&gt;三级标题
-&lt;/h3&gt;&lt;p&gt;正文 123&lt;/p&gt;
-&lt;p&gt;time 时间&lt;/p&gt;
-&lt;p&gt;加粗 &lt;strong&gt;加粗文本&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;斜体 &lt;em&gt;斜体文本&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;如何将markdown，转化为HTML&lt;/p&gt;
-&lt;p&gt;转化的过程：规则-&amp;gt;主题/themes&lt;/p&gt;
-&lt;p&gt;hugo：https://themes.gohugo.io&lt;/p&gt;
-&lt;p&gt;build : hugo build&lt;/p&gt;
-&lt;p&gt;hugo serve&lt;/p&gt;
-&lt;p&gt;Ngix&lt;/p&gt;
-&lt;p&gt;hugo server Nginx一样&lt;/p&gt;
-&lt;p&gt;背景服务 Nginx&lt;/p&gt;
-&lt;p&gt;Hugo build  -&amp;gt; HTMLs&lt;/p&gt;
-&lt;p&gt;Nginx + HTMLs -&amp;gt; Services&lt;/p&gt;
-&lt;p&gt;gti init&lt;/p&gt;
-&lt;p&gt;将本地目录变成Git仓库
-仓库？追踪变化&lt;/p&gt;
-&lt;p&gt;写通讯稿 -&amp;gt; Word -&amp;gt;
-第一版 &amp;lt;-发生了甚么变化-&amp;gt; 第二版 、、、 最终版&lt;/p&gt;
-&lt;p&gt;Git 回溯&lt;/p&gt;
-&lt;ol start=&#34;0&#34;&gt;
-&lt;li&gt;查看当前状态 git status&lt;/li&gt;
-&lt;li&gt;记录目前的状态&lt;/li&gt;
-&lt;li&gt;add git add .&lt;/li&gt;
-&lt;li&gt;保存 git commit
-git commit -m “第一版”&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;git add
-git commit
-git log
-gti reset HEAD~1&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Demo2</title>
-        <link>https://example.com/p/demo2/</link>
-        <pubDate>Sat, 22 Nov 2025 20:35:41 +0800</pubDate>
+          <h1 id="新生研讨分享安排学习生活">
+<a class="header-anchor" href="#%e6%96%b0%e7%94%9f%e7%a0%94%e8%ae%a8%e5%88%86%e4%ba%ab%e5%ae%89%e6%8e%92%e5%ad%a6%e4%b9%a0%e7%94%9f%e6%b4%bb"></a>
+新生研讨分享&ndash;安排学习生活
+</h1><h2 id="学习方面">
+<a class="header-anchor" href="#%e5%ad%a6%e4%b9%a0%e6%96%b9%e9%9d%a2"></a>
+学习方面
+</h2><ul>
+<li>课堂上，认真听讲，记笔记
+<ul>
+<li>大部分老师会指出重点内容</li>
+<li>对比记笔记和不记笔记，前者课后没有印象，后者留有印象</li>
+<li>用于期末复习，不用把老师的所有 PPT、课本从头到尾看一遍，主看笔记，辅看 PPT、课本</li>
+<li>对比高中和大学 前者是高度结构化、被动接受 后者是高度自由化、主动探索</li>
+</ul>
+</li>
+</ul>
+<center>
+<p><img src="/images/posts/%E5%88%86%E4%BA%AB/1.jpg" alt=""></p>
         
-        <guid>https://example.com/p/demo2/</guid>
-        <description>&lt;img src="https://example.com/images/demo2/demo2.jpg" alt="Featured image of post Demo2" /&gt;</description>
-        </item>
-        <item>
-        <title>Demo1</title>
-        <link>https://example.com/p/demo1/</link>
-        <pubDate>Sat, 22 Nov 2025 20:32:55 +0800</pubDate>
+        <hr><p>本文2025-11-22首发于<a href='http://localhost:40251/'>我的博客</a>，最后修改于2025-11-22</p>]]>
+      </description>
+      
+        <category>生活分享</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Steps</title>
+      <link>http://localhost:40251/post/steps/</link>
+      <pubDate>Sat, 22 Nov 2025 20:40:28 &#43;0800</pubDate>
+      <author>xxx@example.com (red-ace3333)</author>
+      <guid>http://localhost:40251/post/steps/</guid>
+      <description>
+        <![CDATA[<h1>Steps</h1><p>作者：red-ace3333（xxx@example.com）</p>
         
-        <guid>https://example.com/p/demo1/</guid>
-        <description></description>
-        </item>
+          <h1 id="hugo-网站搭建步骤总结">
+<a class="header-anchor" href="#hugo-%e7%bd%91%e7%ab%99%e6%90%ad%e5%bb%ba%e6%ad%a5%e9%aa%a4%e6%80%bb%e7%bb%93"></a>
+Hugo 网站搭建步骤总结
+</h1><h2 id="初始化和项目创建">
+<a class="header-anchor" href="#%e5%88%9d%e5%a7%8b%e5%8c%96%e5%92%8c%e9%a1%b9%e7%9b%ae%e5%88%9b%e5%bb%ba"></a>
+初始化和项目创建
+</h2><h3 id="1-初始化-git-仓库">
+<a class="header-anchor" href="#1-%e5%88%9d%e5%a7%8b%e5%8c%96-git-%e4%bb%93%e5%ba%93"></a>
+1. 初始化 Git 仓库
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git init .
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>在 <code>site1</code> 目录初始化 Git 仓库</li>
+<li>默认创建 <code>master</code> 分支</li>
+</ul>
+<h3 id="2-创建-hugo-站点">
+<a class="header-anchor" href="#2-%e5%88%9b%e5%bb%ba-hugo-%e7%ab%99%e7%82%b9"></a>
+2. 创建 Hugo 站点
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new site . --force --format yaml
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>在当前目录创建 Hugo 站点</li>
+<li>使用 <code>--force</code> 覆盖现有文件</li>
+<li>配置文件格式为 YAML</li>
+</ul>
+<h3 id="3-创建内容页面">
+<a class="header-anchor" href="#3-%e5%88%9b%e5%bb%ba%e5%86%85%e5%ae%b9%e9%a1%b5%e9%9d%a2"></a>
+3. 创建内容页面
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new content pages/hellow.md
+</span></span><span class="line"><span class="cl">hugo new content pages/steps.md
+</span></span><span class="line"><span class="cl">hugo new content pages/红楼梦.md
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>在 <code>content/pages/</code> 目录下创建三个 Markdown 页面</li>
+<li>支持中英文文件名</li>
+</ul>
+<h2 id="主题配置">
+<a class="header-anchor" href="#%e4%b8%bb%e9%a2%98%e9%85%8d%e7%bd%ae"></a>
+主题配置
+</h2><h3 id="4-安装-papermod-主题">
+<a class="header-anchor" href="#4-%e5%ae%89%e8%a3%85-papermod-%e4%b8%bb%e9%a2%98"></a>
+4. 安装 PaperMod 主题
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth<span class="o">=</span><span class="m">1</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>克隆 PaperMod 主题到 <code>themes</code> 目录</li>
+<li>使用 <code>--depth=1</code> 只获取最新提交，节省空间</li>
+</ul>
+<h3 id="5-修复配置文件错误">
+<a class="header-anchor" href="#5-%e4%bf%ae%e5%a4%8d%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6%e9%94%99%e8%af%af"></a>
+5. 修复配置文件错误
+</h3><ul>
+<li>初始配置中出现 YAML 格式错误：<code>theme:[&quot;PaperMod&quot;]</code></li>
+<li>正确格式应为：<code>theme: PaperMod</code> 或 <code>theme: &quot;PaperMod&quot;</code></li>
+</ul>
+<h2 id="本地开发和测试">
+<a class="header-anchor" href="#%e6%9c%ac%e5%9c%b0%e5%bc%80%e5%8f%91%e5%92%8c%e6%b5%8b%e8%af%95"></a>
+本地开发和测试
+</h2><h3 id="6-启动本地服务器">
+<a class="header-anchor" href="#6-%e5%90%af%e5%8a%a8%e6%9c%ac%e5%9c%b0%e6%9c%8d%e5%8a%a1%e5%99%a8"></a>
+6. 启动本地服务器
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo serve
+</span></span><span class="line"><span class="cl"><span class="c1"># 或</span>
+</span></span><span class="line"><span class="cl">hugo server
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>启动 Hugo 开发服务器</li>
+<li>默认地址：http://localhost:1313/</li>
+<li>支持热重载，文件修改后自动重新构建</li>
+</ul>
+<h3 id="7-构建统计信息">
+<a class="header-anchor" href="#7-%e6%9e%84%e5%bb%ba%e7%bb%9f%e8%ae%a1%e4%bf%a1%e6%81%af"></a>
+7. 构建统计信息
+</h3><ul>
+<li>页面数量：从 10 → 11 → 13（随着内容增加）</li>
+<li>构建时间：17ms → 10ms（优化后）</li>
+<li>环境：development（开发环境）</li>
+</ul>
+<h2 id="版本控制管理">
+<a class="header-anchor" href="#%e7%89%88%e6%9c%ac%e6%8e%a7%e5%88%b6%e7%ae%a1%e7%90%86"></a>
+版本控制管理
+</h2><h3 id="8-配置-git-用户信息">
+<a class="header-anchor" href="#8-%e9%85%8d%e7%bd%ae-git-%e7%94%a8%e6%88%b7%e4%bf%a1%e6%81%af"></a>
+8. 配置 Git 用户信息
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git config --global user.email <span class="s2">&#34;3131097328@qq.com&#34;</span>
+</span></span><span class="line"><span class="cl">git config --global user.name <span class="s2">&#34;Redace&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>设置全局 Git 配置</li>
+<li>为提交记录提供作者信息</li>
+</ul>
+<h3 id="9-提交代码变更">
+<a class="header-anchor" href="#9-%e6%8f%90%e4%ba%a4%e4%bb%a3%e7%a0%81%e5%8f%98%e6%9b%b4"></a>
+9. 提交代码变更
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;第一版&#34;</span>
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;第二版&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>添加所有文件到暂存区</li>
+<li>创建两个版本提交</li>
+<li>注意：主题作为子模块添加（mode 160000）</li>
+</ul>
+<h3 id="10-查看提交历史">
+<a class="header-anchor" href="#10-%e6%9f%a5%e7%9c%8b%e6%8f%90%e4%ba%a4%e5%8e%86%e5%8f%b2"></a>
+10. 查看提交历史
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git log
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>显示提交记录和变更历史</li>
+</ul>
+<h2 id="项目结构">
+<a class="header-anchor" href="#%e9%a1%b9%e7%9b%ae%e7%bb%93%e6%9e%84"></a>
+项目结构
+</h2><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">site1/
+</span></span><span class="line"><span class="cl">├── archetypes/     # 内容模板
+</span></span><span class="line"><span class="cl">├── assets/         # 资源文件
+</span></span><span class="line"><span class="cl">├── content/        # 网站内容
+</span></span><span class="line"><span class="cl">│   └── pages/      # 页面文件
+</span></span><span class="line"><span class="cl">├── data/           # 数据文件
+</span></span><span class="line"><span class="cl">├── layouts/        # 布局文件
+</span></span><span class="line"><span class="cl">├── static/         # 静态文件
+</span></span><span class="line"><span class="cl">├── themes/         # 主题文件
+</span></span><span class="line"><span class="cl">│   └── PaperMod/   # PaperMod 主题
+</span></span><span class="line"><span class="cl">├── public/         # 构建输出
+</span></span><span class="line"><span class="cl">└── hugo.yaml       # 配置文件
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="关键命令总结">
+<a class="header-anchor" href="#%e5%85%b3%e9%94%ae%e5%91%bd%e4%bb%a4%e6%80%bb%e7%bb%93"></a>
+关键命令总结
+</h2><ol>
+<li><strong>初始化</strong>: <code>git init</code> + <code>hugo new site</code></li>
+<li><strong>内容创建</strong>: <code>hugo new content</code></li>
+<li><strong>主题安装</strong>: <code>git clone</code> 到 themes 目录</li>
+<li><strong>本地开发</strong>: <code>hugo serve</code></li>
+<li><strong>版本控制</strong>: <code>git add</code> + <code>git commit</code></li>
+<li><strong>配置注意</strong>: 正确的 YAML 格式和 Git 用户配置</li>
+</ol>
+<p>这个流程展示了从零开始创建 Hugo 静态网站并管理版本控制的完整过程。</p>
         
-    </channel>
+        <hr><p>本文2025-11-22首发于<a href='http://localhost:40251/'>我的博客</a>，最后修改于2025-11-22</p>]]>
+      </description>
+      
+        <category>技术教程</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Hello</title>
+      <link>http://localhost:40251/post/hello/</link>
+      <pubDate>Sat, 22 Nov 2025 20:39:57 &#43;0800</pubDate>
+      <author>xxx@example.com (red-ace3333)</author>
+      <guid>http://localhost:40251/post/hello/</guid>
+      <description>
+        <![CDATA[<h1>Hello</h1><p>作者：red-ace3333（xxx@example.com）</p>
+        
+          <p>tar -zxvf</p>
+<h1 id="一级标题">
+<a class="header-anchor" href="#%e4%b8%80%e7%ba%a7%e6%a0%87%e9%a2%98"></a>
+一级标题
+</h1><h2 id="二级标题">
+<a class="header-anchor" href="#%e4%ba%8c%e7%ba%a7%e6%a0%87%e9%a2%98"></a>
+二级标题
+</h2><h3 id="三级标题">
+<a class="header-anchor" href="#%e4%b8%89%e7%ba%a7%e6%a0%87%e9%a2%98"></a>
+三级标题
+</h3><p>正文 123</p>
+<p>time 时间</p>
+<p>加粗 <strong>加粗文本</strong></p>
+<p>斜体 <em>斜体文本</em></p>
+<p>如何将markdown，转化为HTML</p>
+<p>转化的过程：规则-&gt;主题/themes</p>
+        
+        <hr><p>本文2025-11-22首发于<a href='http://localhost:40251/'>我的博客</a>，最后修改于2025-11-22</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Demo2</title>
+      <link>http://localhost:40251/post/demo2/</link>
+      <pubDate>Sat, 22 Nov 2025 20:35:41 &#43;0800</pubDate>
+      <author>xxx@example.com (red-ace3333)</author>
+      <guid>http://localhost:40251/post/demo2/</guid>
+      <description>
+        <![CDATA[<h1>Demo2</h1><p>作者：red-ace3333（xxx@example.com）</p>
+        
+          
+        
+        <hr><p>本文2025-11-22首发于<a href='http://localhost:40251/'>我的博客</a>，最后修改于2025-11-22</p>]]>
+      </description>
+      
+        <category>测试文章</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Demo1</title>
+      <link>http://localhost:40251/post/demo1/</link>
+      <pubDate>Sat, 22 Nov 2025 20:32:55 &#43;0800</pubDate>
+      <author>xxx@example.com (red-ace3333)</author>
+      <guid>http://localhost:40251/post/demo1/</guid>
+      <description>
+        <![CDATA[<h1>Demo1</h1><p>作者：red-ace3333（xxx@example.com）</p>
+        
+          
+        
+        <hr><p>本文2025-11-22首发于<a href='http://localhost:40251/'>我的博客</a>，最后修改于2025-11-22</p>]]>
+      </description>
+      
+    </item>
+    
+  </channel>
 </rss>
