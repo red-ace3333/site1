@@ -25,7 +25,7 @@ categories: ["生活分享"]
 
 <center>
 
-![](/images/posts/分享/1.jpg)
+![](../../images/posts/分享/1.jpg)
 
 图 1 记了很多笔记
 
@@ -33,7 +33,7 @@ categories: ["生活分享"]
 
 - 作业认真独立完成，弄懂（本专业经验来看，考试题目与课后作业比较类似）
 
-- 对于所谓的水课，感兴趣的好好听，不感兴趣的选择性听，报告好好写（按照[模板](https://hantang.github.io/templates/)）
+- 对于所谓的水课，感兴趣的好好听，不感兴趣的选择性听，报告好好写（按照[模板](https://hantang.github.io/latex-templates/)）
 
 ## 生活方面
 
@@ -41,7 +41,7 @@ categories: ["生活分享"]
 
 <center>
 
-![](/images/posts/分享/1.png)
+![](../../images/posts/分享/1.png)
 
 图 2 2023 年末至 2024 年初日记
 
@@ -75,7 +75,7 @@ categories: ["生活分享"]
   - 可以使用工具完成的事情，不要亲力亲为
     - 举例：写文档编辑公式 使用自动识别软件simpletex 直接复制粘贴到mathtype或AxMath
 
-![](/images/posts/分享/simpletex.gif)
+![](../../images/posts/分享/simpletex.gif)
 
   - 流程化是提高工作效率的指导原则
   - 能自动化的工作不手动完成
