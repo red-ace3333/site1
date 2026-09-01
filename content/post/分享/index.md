@@ -33,7 +33,10 @@ categories: ["生活分享"]
 
 - 作业认真独立完成，弄懂（本专业经验来看，考试题目与课后作业比较类似）
 
-- 对于所谓的水课，感兴趣的好好听，不感兴趣的选择性听，报告好好写（按照[模板](https://hantang.github.io/latex-templates/)）
+- 对于所谓的水课，感兴趣的好好听，不感兴趣的选择性听，报告好好写
+  - 推荐直接使用西电同学维护的 macOS LaTeX 模板：[Xidian-LaTeX-Template-for-macOS](https://github.com/Ronchy2000/Xidian-LaTeX-Template-for-macOS)
+    （也可以作为通用课程/实验报告模板参考）
+  - 流程：先 clone / 下载模板 → 本地用 VS Code + LaTeX Workshop（或 MacTeX）配好一次环境 → 以后再写新报告只需要改 `main.tex` 里的章节内容即可
 
 ## 生活方面
 
@@ -73,9 +76,24 @@ categories: ["生活分享"]
 - 多与家人、朋友交流分享，分享困惑与快乐
 - 相信只要有需求，就能找到解决方法
   - 可以使用工具完成的事情，不要亲力亲为
-    - 举例：写文档编辑公式 使用自动识别软件simpletex 直接复制粘贴到mathtype或AxMath
-
-![](/images/posts/分享/simpletex.gif)
-
-  - 流程化是提高工作效率的指导原则
-  - 能自动化的工作不手动完成
+    - 举例 1：写课程/实验报告 —— 「LaTeX 模板 + AI Agent 自动填内容」
+      1. 先用上面推荐的 [Xidian-LaTeX-Template-for-macOS](https://github.com/Ronchy2000/Xidian-LaTeX-Template-for-macOS)
+         把模板在本地配好（`latexmk` 能成功一次编译出 PDF 即可）；
+      2. 把「实验要求 / 老师给的 PPT / 课本章节 / 手写草稿 / 代码与运行截图」
+         一股脑丢给支持文件上下文的 Agent（例如 **Trae**、GitHub **Copilot**、
+         OpenAI **Codex**/Cursor、Claude Projects 等）；
+      3. 给 Agent 一个固定 Prompt，比如：
+         ```
+         你是一个 LaTeX 报告代写助手，只能修改 \section 开头到 \subsection 结束的正文，
+         不能动模板里的 \documentclass / \usepackage / 宏命令 / 封面命令。
+         按「实验目的 → 原理与步骤 → 结果分析 → 代码附录 → 结论」的结构填，
+         中文+公式用 siunitx/mhchem 环境，引用代码用 listings 并保留我给的源码，
+         最后逐段对照我给的草稿补全，不要凭空捏造数据。
+         ```
+      4. Agent 直接输出可编译的 `.tex` 片段 → 粘进模板对应的章节 →
+         你自己**只负责审读 + 微调 + 编译出最终 PDF**，
+         这样一份 5-20 页的报告从「空白」到「可提交成品」的时间可以从 2-4 小时
+         压缩到 20-40 分钟，且格式、字体、章节编号、参考文献完全符合模板。
+    - 举例 2：流程化与自动化 —— 写文档/交作业/整理笔记，只要重复做 3 次以上，
+      就应该把它写成命令、脚本、模板、或者 Agent 的固定 System Prompt。
+      「我每次都要把 A 文件的内容搬去 B 文件」—— 那不是勤劳，是该自动化的信号。
