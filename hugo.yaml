@@ -60,14 +60,15 @@ params:
   keywords: "博客,技术,生活"
   subtitle: "我的个人博客"
 
-  # ⭐ 侧边栏头像 + 站点 Banner（修复 404）
-  # 原 reimu 默认 webp 文件未随仓提供 → HTTP 404
-  # 现统一改为本地静态资源 jpg：
-  #   static/avatar/avatar.jpg   → 模板: {{ "avatar/" | relURL }}avatar
-  #   static/images/banner.jpg   → 模板: banner | relURL
-  # 以后换头像/换横幅：新文件覆盖同名路径 + 改后缀即可（别忘了改下面后缀）
+  # ⭐ 侧边栏头像 + 站点 Banner（修复 404 + 「banner 变成用户头像」）
+  # 2026-09-01 踩坑记录：之前 banner.jpg 是从头像 jpg 直接复制的同一张图，
+  #   导致文章顶、首页卡片等位置都显示用户大脸头像。现改为新生成的
+  #   16:9 轻奢米金大理石风 PNG（本地生成、无第三方依赖）。
+  #   static/avatar/avatar.jpg     → 用户头像（不动）
+  #   static/images/banner.png     → 新横幅 (1920×1080)
+  # 以后换头像/换横幅：新文件覆盖同名路径 + 改后缀即可
   avatar: "avatar.jpg"
-  banner: "images/banner.jpg"
+  banner: "images/banner.png"
   
   # 侧边栏配置
   sidebar: right

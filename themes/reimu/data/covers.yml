@@ -1,14 +1,21 @@
-# ⭐ 本地文章卡片封面（替换原外链 https://d-sketon.top/img/_backwebp/bg1.webp → HTTP 403 防盗链）
+# ⭐ 本地文章卡片封面（替换原外链 https://d-sketon.top/img/_backwebp/bg1.webp → 对方 HTTP 403 防盗链）
 #
-# ⚠️ 路径必须以 "/" 开头（站点根绝对路径），原因：
-#   randomCover.html 直接 return 这里的字符串到 nav.html / post.html / index.html，
-#   模板没写 `| relURL`，所以必须依赖 Hugo 全局配置 relativeURLs: true
-#   去把 "/images/..." 自动改写为匹配当前页面深度的 "../../images/..." 相对路径。
-#   如果漏写前导 "/"，深度 > 0 的页面（如 /site1/post/分享/）会解析成
-#   "/site1/post/分享/images/covers/coverX.jpg" → HTTP 404。
+# ⚠️ 路径必须以 "/" 开头（站点根绝对路径），原因（2026-09-01 踩坑记录）：
+#   Hugo 的 `| relURL` 对 "/" 开头的字符串**不补** baseURL.Path 前缀（例如
+#   baseURL=https://host/site1/ 时，"/images/a.jpg | relURL" 仍然等于
+#   "/images/a.jpg" 而不是 "/site1/images/a.jpg"）。
+#   因此项目层 layouts/partials/helpers/basepathify.html 会在 randomCover 返回
+#   时手工把 basePath="/site1" 前缀拼上去；但它要求这里的字符串必须以 "/" 开头
+#   才能正确识别为「站点绝对路径」。
 #
-# 以后想换更漂亮的专属封面：把 jpg/webp 丢到 static/images/covers/ 再加一行即可。
-- "/images/covers/cover1.jpg"
-- "/images/covers/cover2.jpg"
-- "/images/covers/cover3.jpg"
-- "/images/covers/cover4.jpg"
+# 如果缺写前导 "/"，深度 > 0 的页面（如 /site1/post/分享/）会把
+#   "images/covers/coverX.png" 相对当前页 resolve 成
+#   "/site1/post/分享/images/covers/coverX.png" → HTTP 404。
+#
+# 现使用 4 张本地生成的 4:3 渐变 PNG（分别为 深蓝霓虹 / 樱花粉紫 / 森林绿 / 沙漠橙），
+# 替代之前「从用户头像 jpg 复制」导致所有卡片封面都变成用户头像的 bug 版本。
+# 以后想换更漂亮的专属封面：把 png/jpg/webp 丢到 static/images/covers/ 再加一行即可。
+- "/images/covers/cover1.png"
+- "/images/covers/cover2.png"
+- "/images/covers/cover3.png"
+- "/images/covers/cover4.png"
