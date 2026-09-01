@@ -1,8 +1,8 @@
-baseURL: https://example.com/
+baseURL: https://red-ace3333.github.io/site1/
 languageCode: zh-cn
 theme: reimu
 title: 我的博客
-copyright: "red-ace3333."
+copyright: "red-ace3333"
 
 # 语言配置
 DefaultContentLanguage: zh-cn
@@ -96,7 +96,7 @@ params:
   
   # 暗模式配置
   dark_mode:
-    enable: auto
+    enable: "auto"
   
   # 评论系统配置
   comment:
@@ -104,8 +104,8 @@ params:
   
   # Waline评论系统配置
   waline:
-    enable: true
-    serverURL: "https://waline.vercel.app"
+    enable: false
+    serverURL: ""  # TODO: 部署后填入自己的 Waline 服务地址，如 https://your-waline.vercel.app
     pageview: true
     emoji:
       - https://unpkg.com/@waline/emojis@1.2.0/weibo
