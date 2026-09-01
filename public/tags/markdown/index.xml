@@ -1,5 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown on 我的博客</title><link>https://red-ace3333.github.io/site1/tags/markdown/</link><description>Recent content from 我的博客</description><generator>Hugo</generator><language>zh-cn</language><managingEditor>xxx@example.com (red-ace3333)</managingEditor><webMaster>xxx@example.com (red-ace3333)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Mon, 01 Dec 2025 11:41:55 +0800</lastBuildDate><atom:link href="https://red-ace3333.github.io/site1/tags/markdown/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown_Katex</title><link>https://red-ace3333.github.io/site1/post/markdown_katex/</link><pubDate>Mon, 01 Dec 2025 11:41:55 +0800</pubDate><author>xxx@example.com (red-ace3333)</author><guid>https://red-ace3333.github.io/site1/post/markdown_katex/</guid><description>
-<![CDATA[<h1>Markdown_Katex</h1><p>作者：red-ace3333（xxx@example.com）</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on 我的博客</title>
+    <link>http://localhost:1313/site1/tags/markdown/</link>
+    <description>Recent content from 我的博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+    <managingEditor>xxx@example.com (red-ace3333)</managingEditor>
+    <webMaster>xxx@example.com (red-ace3333)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
+    <lastBuildDate>Mon, 01 Dec 2025 11:41:55 +0800</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:1313/site1/tags/markdown/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Markdown_Katex</title>
+      <link>http://localhost:1313/site1/post/markdown_katex/</link>
+      <pubDate>Mon, 01 Dec 2025 11:41:55 &#43;0800</pubDate>
+      <author>xxx@example.com (red-ace3333)</author>
+      <guid>http://localhost:1313/site1/post/markdown_katex/</guid>
+      <description>
+        <![CDATA[<h1>Markdown_Katex</h1><p>作者：red-ace3333（xxx@example.com）</p>
         
           <h1 id="katex-1">
 <a class="header-anchor" href="#katex-1"></a>
@@ -69,8 +98,23 @@ katex-1
   /></figure>
 </p>
         
-        <hr><p>本文2025-12-01首发于<a href='https://red-ace3333.github.io/site1/'>我的博客</a>，最后修改于2025-12-01</p>]]></description><category>技术教程</category></item><item><title>Markdown</title><link>https://red-ace3333.github.io/site1/post/markdown_basic/</link><pubDate>Mon, 01 Dec 2025 11:31:30 +0800</pubDate><author>xxx@example.com (red-ace3333)</author><guid>https://red-ace3333.github.io/site1/post/markdown_basic/</guid><description>
-<![CDATA[<h1>Markdown</h1><p>作者：red-ace3333（xxx@example.com）</p>
+        <hr><p>本文2025-12-01首发于<a href='http://localhost:1313/site1/'>我的博客</a>，最后修改于2025-12-01</p>]]>
+      </description>
+      
+        <category>技术教程</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost:1313/site1/post/markdown_basic/</link>
+      <pubDate>Mon, 01 Dec 2025 11:31:30 &#43;0800</pubDate>
+      <author>xxx@example.com (red-ace3333)</author>
+      <guid>http://localhost:1313/site1/post/markdown_basic/</guid>
+      <description>
+        <![CDATA[<h1>Markdown</h1><p>作者：red-ace3333（xxx@example.com）</p>
         
           <h1 id="基础">
 <a class="header-anchor" href="#%e5%9f%ba%e7%a1%80"></a>
@@ -103,4 +147,12 @@ katex-1
 </h2><blockquote>
 <p>引用内容 （&gt;引用内容）</p>
         
-        <hr><p>本文2025-12-01首发于<a href='https://red-ace3333.github.io/site1/'>我的博客</a>，最后修改于2025-12-01</p>]]></description><category>技术教程</category></item></channel></rss>
+        <hr><p>本文2025-12-01首发于<a href='http://localhost:1313/site1/'>我的博客</a>，最后修改于2025-12-01</p>]]>
+      </description>
+      
+        <category>技术教程</category>
+      
+    </item>
+    
+  </channel>
+</rss>
