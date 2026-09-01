@@ -1,1 +1,14 @@
-- https://d-sketon.top/img/_backwebp/bg1.webp
+# ⭐ 本地文章卡片封面（替换原外链 https://d-sketon.top/img/_backwebp/bg1.webp → HTTP 403 防盗链）
+#
+# ⚠️ 路径必须以 "/" 开头（站点根绝对路径），原因：
+#   randomCover.html 直接 return 这里的字符串到 nav.html / post.html / index.html，
+#   模板没写 `| relURL`，所以必须依赖 Hugo 全局配置 relativeURLs: true
+#   去把 "/images/..." 自动改写为匹配当前页面深度的 "../../images/..." 相对路径。
+#   如果漏写前导 "/"，深度 > 0 的页面（如 /site1/post/分享/）会解析成
+#   "/site1/post/分享/images/covers/coverX.jpg" → HTTP 404。
+#
+# 以后想换更漂亮的专属封面：把 jpg/webp 丢到 static/images/covers/ 再加一行即可。
+- "/images/covers/cover1.jpg"
+- "/images/covers/cover2.jpg"
+- "/images/covers/cover3.jpg"
+- "/images/covers/cover4.jpg"

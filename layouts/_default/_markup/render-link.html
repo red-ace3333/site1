@@ -1,0 +1,17 @@
+{{- /*
+  Hugo Goldmark render hook: Markdown 链接 → <a>
+  处理方式同 render-image：保证站内链接（尤其是以 / 开头的绝对路径）
+  在 /site1/ 子路径部署时被正确重写。
+*/ -}}
+{{- $dest := .Destination -}}
+{{- $isExternal := or (strings.HasPrefix $dest "http://") (strings.HasPrefix $dest "https://") -}}
+{{- if not $isExternal -}}
+  {{- $dest = $dest | relURL -}}
+{{- end -}}
+{{- $text := .Text -}}
+{{- $title := .Title -}}
+<a
+  href="{{ $dest | safeURL }}"
+  {{ with $title }}title="{{ . }}"{{ end }}
+  {{ if $isExternal }}target="_blank" rel="noopener noreferrer"{{ end }}
+>{{- $text | safeHTML -}}</a>

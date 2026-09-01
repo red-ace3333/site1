@@ -10,6 +10,23 @@ DefaultContentLanguage: zh-cn
 # 设置为true以支持中文内容的正确摘要和字数统计
 hasCJKLanguage: true
 
+# ⭐ URL 修正（GitHub Pages 部署在 /site1/ 子路径下必开）
+#
+# canonical / relative 的取舍踩坑记录：
+#   ✗ relativeURLs=true —— Hugo 会把所有 HTML/CSS 中以 / 开头的绝对路径（包括已经带
+#       /site1/ 前缀的 .RelPermalink，如 `/site1/js/main.js`）也强制做相对化，
+#       输出 `../../site1/js/main.js`，结果浏览器在 /site1/post/分享/ 下 resolve
+#       变成 `/site1/site1/js/main.js`（双前缀）→ JS/CSS 全站 404 💥。
+#   ✗ canonifyURLs=true —— 把 href/src 都换成绝对 URL，不利于切域名/预览。
+#
+# ✅ 本项目的正确配置：relativeURLs=false, canonifyURLs=false
+#   Markdown 中作者可能写的「无前域名 /images/posts/分享/1.jpg」绝对路径，
+#   由 layouts/_default/_markup/render-image.html 和 render-link.html
+#   这两个 Goldmark render hooks 里的 `| relURL` 单独处理 ——
+#   精准只在 Markdown 层做修正，不与 .RelPermalink 打架。
+relativeURLs: false
+canonifyURLs: false
+
 # 日期时间格式
 dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
@@ -42,6 +59,15 @@ params:
   description: "我的个人博客"
   keywords: "博客,技术,生活"
   subtitle: "我的个人博客"
+
+  # ⭐ 侧边栏头像 + 站点 Banner（修复 404）
+  # 原 reimu 默认 webp 文件未随仓提供 → HTTP 404
+  # 现统一改为本地静态资源 jpg：
+  #   static/avatar/avatar.jpg   → 模板: {{ "avatar/" | relURL }}avatar
+  #   static/images/banner.jpg   → 模板: banner | relURL
+  # 以后换头像/换横幅：新文件覆盖同名路径 + 改后缀即可（别忘了改下面后缀）
+  avatar: "avatar.jpg"
+  banner: "images/banner.jpg"
   
   # 侧边栏配置
   sidebar: right
@@ -115,6 +141,43 @@ params:
       - mail
     wordLimit: 0
     pageSize: 10
+
+  # ⭐ 字体加载策略（修复 fonts.gstatic.com ERR_ABORTED）
+  #
+  # reimu 默认优先级: custom_font > font(Google Fonts) > local_font
+  # 之前的问题：font.enable=true → 从 fonts.googleapis.com 拉 Mulish + Noto Serif SC
+  #   → CSS 再要求浏览器从 fonts.gstatic.com 下 woff2 字体文件
+  #   → 中国境内访问 gstatic 极不稳定（GFW RST / 404 / ERR_ABORTED）
+  #
+  # 处置：关闭 font.enable，跳过 Google Fonts 请求，直接走 local_font 系统字体链
+  #       （Linux/macOS/Windows/iOS/Android 都自带中文字体，0 网络请求、立即渲染）
+  # 若以后需要漂亮字体 + 稳定加载：改成 custom_font，CSS 指向国内 CDN 或 static/fonts/ 本地
+  font:
+    enable: false
+    article: []
+    code: []
+  local_font:
+    article:
+      - "-apple-system"
+      - "BlinkMacSystemFont"
+      - "PingFang SC"
+      - "HarmonyOS Sans SC"
+      - "Hiragino Sans GB"
+      - "Microsoft YaHei"
+      - "Source Han Sans SC"
+      - "Noto Sans CJK SC"
+      - "WenQuanYi Micro Hei"
+      - sans-serif
+    code:
+      - "JetBrains Mono"
+      - "Fira Code"
+      - "Source Code Pro"
+      - Menlo
+      - Monaco
+      - Consolas
+      - "Liberation Mono"
+      - "Courier New"
+      - monospace
   
 # Markdown渲染配置
 markup:

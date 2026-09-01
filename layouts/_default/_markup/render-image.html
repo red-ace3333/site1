@@ -1,0 +1,28 @@
+{{- /*
+  Hugo Goldmark render hook: Markdown 图片 → <img>
+  唯一目的：不管作者在 Markdown 里写的是
+    相对路径 (./foo.jpg)
+    绝对站点根 (/images/foo.jpg)
+    远程 URL   (https://i.imgur.com/foo.jpg)
+  都强制走 Hugo 的 url/relURL 处理，确保在 GitHub Pages 子路径 /site1/ 下
+  不会出现 "图片索引错误 / 404"。
+*/ -}}
+{{- $dest := .Destination -}}
+{{- if not (or (strings.HasPrefix $dest "http://") (strings.HasPrefix $dest "https://") (strings.HasPrefix $dest "data:")) -}}
+  {{- /* 本地资源 → 走 relURL（自动添加 /site1/ 子路径前缀）*/ -}}
+  {{- $dest = $dest | relURL -}}
+{{- end -}}
+{{- $alt := .Text -}}
+{{- $title := .Title -}}
+<figure class="md-image">
+  <img
+    src="{{ $dest | safeURL }}"
+    {{ with $alt }}alt="{{ . }}"{{ end }}
+    {{ with $title }}title="{{ . }}"{{ end }}
+    loading="lazy"
+    decoding="async"
+  />
+  {{- with $title -}}
+    <figcaption class="md-image-caption">{{ . }}</figcaption>
+  {{- end -}}
+</figure>
