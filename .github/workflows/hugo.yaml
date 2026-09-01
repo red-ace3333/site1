@@ -52,6 +52,13 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Fix basePath prefix post-build (子路径部署 fallback)
+        # 最后防线：Hugo 的 | relURL 对 "/" 开头字符串不补 basePath，
+        # 这个 Python 脚本扫描 public/**/*.html，把还遗漏的
+        #   src=/data-src=/href=/images/xxx /avatar/xxx /js/xxx ...
+        # 统一改为 /site1/images/xxx 等，且自动避免 /site1/site1/ 双前缀。
+        # base-path 留空时，脚本自动从 hugo.yaml 的 baseURL 解析。
+        run: python3 scripts/fix_prefix_post_build.py
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

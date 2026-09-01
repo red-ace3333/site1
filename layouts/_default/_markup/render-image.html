@@ -1,17 +1,42 @@
 {{- /*
   Hugo Goldmark render hook: Markdown 图片 → <img>
-  唯一目的：不管作者在 Markdown 里写的是
-    相对路径 (./foo.jpg)
-    绝对站点根 (/images/foo.jpg)
-    远程 URL   (https://i.imgur.com/foo.jpg)
-  都强制走 Hugo 的 url/relURL 处理，确保在 GitHub Pages 子路径 /site1/ 下
-  不会出现 "图片索引错误 / 404"。
+
+  关键踩坑（2026-09-01 确诊，影响 v0.152.2-extended 在 render hook 上下文内）：
+    `{{ $path | relURL }}` 当 $path 以 "/" 开头时，返回值**不自动加上 baseURL 的
+    path 前缀**（例如 baseURL=https://red-ace3333.github.io/site1/ 时，
+    "/images/foo.jpg" | relURL 仍然是 "/images/foo.jpg"，而不是预期
+    的 "/site1/images/foo.jpg"）。这会让所有 Markdown 里以 `/images/posts/...`
+    写的配图在 GitHub Pages 子路径部署下 404 → 浏览器碎图。
+
+  修复方式：
+    1. 从 site.BaseURL 里把 path 部分解析出来（比如 "/site1/"）。
+    2. 如果 dest 以 "/" 开头（作者写了绝对站点根路径），手工拼接前缀，
+       并防止 basePath 自身以"/" 开头导致重复。
+    3. 远程 URL / data URI 跳过。
+    4. 相对路径（./foo.jpg）走原生 relURL，它对相对字符串工作正常。
 */ -}}
+{{- /* 提取站点子路径：形如 "/site1/" 或 "/" */ -}}
+{{- $basePath := (urls.Parse site.BaseURL).Path | default "/" -}}
+{{- /* 规范化：去掉尾部 /，保留头部 /。空 basePath 退化为 "" （不拼前缀） */ -}}
+{{- $basePath = strings.TrimSuffix "/" $basePath -}}
+
 {{- $dest := .Destination -}}
-{{- if not (or (strings.HasPrefix $dest "http://") (strings.HasPrefix $dest "https://") (strings.HasPrefix $dest "data:")) -}}
-  {{- /* 本地资源 → 走 relURL（自动添加 /site1/ 子路径前缀）*/ -}}
-  {{- $dest = $dest | relURL -}}
+{{- $isRemote := or (strings.HasPrefix $dest "http://") (strings.HasPrefix $dest "https://") (strings.HasPrefix $dest "data:") -}}
+{{- if not $isRemote -}}
+  {{- if strings.HasPrefix $dest "/" -}}
+    {{- /* 绝对站点根路径：手工拼 $basePath，同时避免 $basePath=="" 时多一个 / */ -}}
+    {{- if $basePath -}}
+      {{- /* 再防一层：dest 已经形如 /site1/... 的，不要重复拼 */ -}}
+      {{- if not (strings.HasPrefix $dest (printf "%s/" $basePath)) -}}
+        {{- $dest = printf "%s%s" $basePath $dest -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- /* 相对路径交给 relURL */ -}}
+    {{- $dest = $dest | relURL -}}
+  {{- end -}}
 {{- end -}}
+
 {{- $alt := .Text -}}
 {{- $title := .Title -}}
 <figure class="md-image">

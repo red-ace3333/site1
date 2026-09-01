@@ -1,3 +1,14 @@
+{{- /*
+  2026-09-01: 修复子路径部署下 covers 导航卡片 data-src 没前缀导致 404。
+  covers.yml 里写的是 "/images/covers/cover1.jpg" 这类绝对站点根路径。
+  Hugo 的 `| relURL` 对 / 开头的字符串不补 basePath（实测证明），所以
+  改用项目层 helpers/basepathify.html 可靠地拼前缀。
+
+  ⚠️ Hugo v0.152 中 `{{ return $x }}` 语法会报错「want 0 got 1」，
+  所以用最后一行 {{ $cover }} 的「渲染输出字符串」作为 partial 返回值。
+*/ -}}
 {{- $covers := .Site.Data.covers -}}
 {{- $cover := index $covers (math.Rand | mul (len $covers) | math.Floor | int) -}}
-{{- return $cover -}}
+{{- $cover = partial "helpers/basepathify.html" $cover -}}
+{{- /* trim 掉可能残留的空白字符（partial 输出默认是 string）*/ -}}
+{{- $cover | safeURL -}}

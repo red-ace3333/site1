@@ -1,13 +1,26 @@
 {{- /*
   Hugo Goldmark render hook: Markdown 链接 → <a>
-  处理方式同 render-image：保证站内链接（尤其是以 / 开头的绝对路径）
-  在 /site1/ 子路径部署时被正确重写。
+
+  与 render-image.html 同逻辑：避免 `"/foo" | relURL` 在 render hook 内
+  不补 basePath 的坑，手工从 site.BaseURL 取 path 前缀拼接。
 */ -}}
+{{- $basePath := (urls.Parse site.BaseURL).Path | default "/" -}}
+{{- $basePath = strings.TrimSuffix "/" $basePath -}}
+
 {{- $dest := .Destination -}}
 {{- $isExternal := or (strings.HasPrefix $dest "http://") (strings.HasPrefix $dest "https://") -}}
 {{- if not $isExternal -}}
-  {{- $dest = $dest | relURL -}}
+  {{- if strings.HasPrefix $dest "/" -}}
+    {{- if $basePath -}}
+      {{- if not (strings.HasPrefix $dest (printf "%s/" $basePath)) -}}
+        {{- $dest = printf "%s%s" $basePath $dest -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $dest = $dest | relURL -}}
+  {{- end -}}
 {{- end -}}
+
 {{- $text := .Text -}}
 {{- $title := .Title -}}
 <a

@@ -1,0 +1,36 @@
+{{- /*
+  helpers/basepathify.html
+  ========================
+
+  对给定的「本地 URL 字符串」$url 进行可靠的 baseURL path 前缀补齐。
+
+  Hugo 内置 relURL 对子路径部署有陷阱（见下方 DIAG 实测），本 partial 手工拼接。
+  ⚠️ Hugo v0.152 里 `{{- return $x -}}` 会报错 `want 0 got 1`，
+  所以本 partial 采用「让最终结果作为 partial 的渲染输出字符串」的方式来返回值。
+
+  用法：
+    {{ $cover := partial "helpers/basepathify.html" $cover }}
+*/ -}}
+{{- $out := . -}}
+{{- if $out -}}
+  {{- $out = printf "%s" $out -}}
+  {{- $skip := or (strings.HasPrefix $out "http://") (strings.HasPrefix $out "https://") (strings.HasPrefix $out "data:") (strings.HasPrefix $out "rgb(") -}}
+  {{- if not $skip -}}
+    {{- /* 1. 取 baseURL 的 path 部分（如 "/site1/"），规范化为 无尾 / 有头 / */ -}}
+    {{- $basePath := (urls.Parse site.BaseURL).Path | default "/" -}}
+    {{- $basePath = strings.TrimSuffix "/" $basePath -}}
+    {{- if strings.HasPrefix $out "/" -}}
+      {{- /* 2. / 开头的绝对路径字符串 → 手工拼前缀，防止重复 */ -}}
+      {{- if $basePath -}}
+        {{- if not (strings.HasPrefix $out (printf "%s/" $basePath)) -}}
+          {{- $out = printf "%s%s" $basePath $out -}}
+        {{- end -}}
+      {{- end -}}
+    {{- else -}}
+      {{- /* 3. 相对路径交给 relURL（它对非 / 开头的字符串工作正常） */ -}}
+      {{- $out = $out | relURL -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- /* 关键：必须用 {{ $out }} 这种「裸模板输出」作为 partial 的字符串返回值 */ -}}
+{{- $out -}}
